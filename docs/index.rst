@@ -21,6 +21,7 @@ Content
    source/manual
    source/troubleshoot
    source/support
+   source/references
 
 Contribute
 ----------
