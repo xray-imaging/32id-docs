@@ -5,7 +5,7 @@ Credits
 Citation
 ========
 
-We kindly request that you cite the following article 
+We kindly request that you cite the following article :cite:`de2016nanoscale`
 
 .. bibliography:: bibtex/cite.bib
    :style: plain
@@ -18,3 +18,4 @@ References
 .. bibliography:: bibtex/ref.bib
    :style: plain
    :labelprefix: A
+   :all:
