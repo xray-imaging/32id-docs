@@ -1,6 +1,6 @@
-========
-2-BM Ops
-========
+==========
+32-ids Ops
+==========
 
 
 .. image:: source/img/project-logo.png
@@ -9,7 +9,7 @@
    :alt: project
 
 
-Manual and troubleshoting information to operate the APS beamline 2-BM
+Manual and troubleshoting information to operate the APS beamline 32-ID
 
 Content
 -------
@@ -25,5 +25,5 @@ Content
 Contribute
 ----------
 
-* `Documentation <https://github.com/decarlof/2bm-docs/tree/master/docs>`_
-* `Issue Tracker <https://github.com/decarlof/2bm-docs/issues>`_
+* `Documentation <https://github.com/vdeandrade/32id-docs/tree/master/docs>`_
+* `Issue Tracker <https://github.com/vdeandrade/32id-docs/issues>`_
