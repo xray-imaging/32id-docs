@@ -1,6 +1,6 @@
-==========
-32-ids Ops
-==========
+=========
+32-id Ops
+=========
 
 
 .. image:: source/img/project-logo.png

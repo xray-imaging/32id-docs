@@ -66,8 +66,8 @@ master_doc = 'index'
 
 # General information about the project.
 Affiliation = u'Argonne National Laboratory'
-project = u'2-BM Ops'
-copyright = u'2019, ' + Affiliation
+project = u'32-ID Ops'
+copyright = u'2020, ' + Affiliation
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
