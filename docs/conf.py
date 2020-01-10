@@ -66,7 +66,7 @@ master_doc = 'index'
 
 # General information about the project.
 Affiliation = u'Argonne National Laboratory'
-project = u'32-ID Ops'
+project = u'TXM at 32-ID of APS'
 copyright = u'2020, ' + Affiliation
 
 # The version info for the project you're documenting, acts as replacement for
@@ -326,3 +326,53 @@ MOCK_MODULES = ['numpy']
 
 for mod_name in MOCK_MODULES:
     sys.modules[mod_name] = Mock()
+
+from pybtex.style.formatting.unsrt import Style as UnsrtStyle
+from pybtex.plugin import register_plugin
+from pybtex.style.sorting import BaseSortingStyle
+from pybtex.style.labels import BaseLabelStyle
+
+
+class ReverseNumber(BaseLabelStyle):
+    name = 'reverse_number'
+
+    def format_labels(self, sorted_entries):
+        for number in range(len(sorted_entries), 0, -1):
+            yield str(number)
+
+class ReverseSortingStyle(BaseSortingStyle):
+    name = 'year_author_title'
+
+    def sorting_key(self, entry):
+        if entry.type in ('book', 'inbook'):
+            author_key = self.author_editor_key(entry)
+        elif 'author' in entry.persons:
+            author_key = self.persons_key(entry.persons['author'])
+        else:
+            author_key = None
+        return (-int(entry.fields.get('year', '')), author_key, entry.fields.get('title', ''))
+
+    def persons_key(self, persons):
+        return '   '.join(self.person_key(person) for person in persons)
+
+    def person_key(self, person):
+        return '  '.join((
+            ' '.join(person.prelast() + person.last()),
+            ' '.join(person.first() + person.middle()),
+            ' '.join(person.lineage()),
+        )).lower()
+
+    def author_editor_key(self, entry):
+        if entry.persons.get('author'):
+            return self.persons_key(entry.persons['author'])
+        elif entry.persons.get('editor'):
+            return self.persons_key(entry.persons['editor'])
+
+class ReverseDate(UnsrtStyle):
+    name = 'reversedate'
+    default_sorting_style = 'year_author_title'
+    default_label_style = 'reverse_number'
+
+register_plugin('pybtex.style.formatting', 'reversedate', ReverseDate)
+register_plugin('pybtex.style.sorting', 'year_author_title', ReverseSortingStyle)
+register_plugin('pybtex.style.labels', 'reverse_number', ReverseNumber)
