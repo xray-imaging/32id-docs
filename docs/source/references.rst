@@ -19,6 +19,6 @@ References
 ==========
 
 .. bibliography:: bibtex/ref.bib
-   :style: plain
-   :labelprefix: A
+   :style: reversedate
+   :labelprefix: B
    :all:
