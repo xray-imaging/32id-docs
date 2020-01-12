@@ -1,17 +1,20 @@
-=================
 Beamline overview
 =================
 
 The *in-house* Transmission X-ray Microscope of APS for in situ nano-tomography
-===============================================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 *V. De Andrade, M. Wojcik, A. Deriy, S. Bean, D. Shu, K. Peterson, T. Mooney, A. Glowacki, D. Gürsoy, V. Nikitin, T. Biçer, K. Fezzaa, F. De Carlo.*
 
-| **Contact:**
+Contact
+~~~~~~~
 | Vincent De Andrade (vdeandrade@anl.gov)
 | Office phone number: (630)252-9241
 | Beamline phone number: (630)252-1832
 
-| **Introduction**
+
+Introduction
+~~~~~~~~~~~~
 | An in-house Transmission X-ray Microscope (TXM) is in operation at 32-ID-C since 2014:
 | • Highest resolution imaging system at APS: 16 nm (cf. microelectronic section)
 | • Combination of nano-scale imaging with absorption, phase contrast and spectroscopy techniques:
@@ -30,7 +33,8 @@ The *in-house* Transmission X-ray Microscope of APS for in situ nano-tomograph
    :alt: project
 
 
-| **Participants**
+Participants
+~~~~~~~~~~~~
 | • **Beamline scientist in charge**
 |	 • Vincent De Andrade (IMG/XSD, vdeandrade@anl.gov)
 | • **Beamline integration**
@@ -44,7 +48,4 @@ The *in-house* Transmission X-ray Microscope of APS for in situ nano-tomograph
 |	 • Tim Mooney (BCDA/AES)
 | • **Group leader**
 |	 • Francesco De Carlo (IMG/XSD, decarlo@anl.gov)
-
-`Publication list <https://32id-docs.readthedocs.io/en/latest/source/references.html>`_ 
-=======================================================================================
 

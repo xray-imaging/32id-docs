@@ -3,13 +3,13 @@
 =========
 
 
-`2-BM Docs <https://2bm-ops.readthedocs.io>`_ provides instruction and troubleshoting information to operate the APS beamline 2-BM
+`32-ID Docs <https://32id-docs.readthedocs.io>`_ provides instruction and troubleshoting information to operate the APS beamline 32-ID
 
 
 Features
 --------
 
-* Documentation: https://2bm-ops.readthedocs.io
-* Issue Tracker: https://github.com/decarlof/2bm-docs/issues
+* Documentation: https://32id-docs.readthedocs.io
+* Issue Tracker: https://github.com/vdeandrade/32id-docs/issues
 
 
