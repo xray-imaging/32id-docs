@@ -23,6 +23,6 @@ Beamline overview
 
 .. toctree::
    :glob:
-   :maxdepth: 1
+   :maxdepth: 2
 
    beamline_overview/item*
