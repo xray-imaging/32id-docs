@@ -2,6 +2,8 @@
 About
 =====
 
+Transmission X-ray Microscope at sector 32-ID of APS.
+
 .. image:: img/TXM_Large_view.png
    :width: 800px
    :align: center
