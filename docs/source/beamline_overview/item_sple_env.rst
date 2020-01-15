@@ -78,7 +78,7 @@ Furnace for *in situ* experiments at high T
 | 
 Nano-indenter for *in situ* mechanical testing
 ----------------------------------------------
-| The nano-indenter has been developed by Professor Nik Chawla's group at ASU (Kaira *et al*., 2019 :cite:`kaira2019exploring`).
+| The nano-indenter has been developed by Professor Nik Chawla's group at ASU (Kaira *et al*., 2019 :cite:`kaira2019exploring`). In order to use it, some coordination should be made with this group.
 .. image:: ../img/Nano_identer.jpg
    :width: 1000px
    :align: center
