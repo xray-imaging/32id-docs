@@ -1,8 +1,8 @@
-Opening EPICS screens 
-=====================
+EPICS screens 
+=============
 
-First, one need to start **caQtDM**.
-Open a terminal::
+| To open the EPICS screens, one needs first to start **caQtDM**.
+| Open a terminal and type::
 
     start_caQtDM_32id
 

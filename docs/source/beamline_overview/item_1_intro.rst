@@ -11,8 +11,8 @@ Contact
 | Beamline phone #: (630)252-1832
 
 
-Introduction
-~~~~~~~~~~~~
+Description
+~~~~~~~~~~~
 | An in-house Transmission X-ray Microscope (TXM) is in operation at 32-ID-C since 2014. It is a highly modular microscope that can accommodate all sort of sample environment cells for in situ experiments.
 | With 16 nm 3D isotropic spatial resolution, this TXM achieved the highest resolution ever documented.
 | As evidenced by the `publication list <https://32id-docs.readthedocs.io/en/latest/source/references.html>`_, it is an essential tool for understanding the fundamental interactions of electro-chemical systems such as energy production & storage devices, catalytic reactions, nano-fabrication, corrosion process, biologic cells, rocks, soils, etc.
@@ -23,9 +23,9 @@ Introduction
 | • **Energy range:** 7 to 12 keV, ∆E/E = 10\ :sup:`-4`.
 | • **Techniques:** combination of nano-scale imaging with absorption, phase contrast  & XANES spectroscopy
 | • **Acquisition modes:** step scans, fly scans, interlaced, fast shutter.
-| • **Operations** in a wide range of samples environments (T°= ambient to 1200°C, P up to 100 GPa), chemical bath.
+| • **Operations** in a wide range of samples environments (T°= ambient to 1400°C, P up to 100 GPa), chemical bath.
 | 
-| The sample stack is equipped with a high accuracy air bearing rotary stage with wobble as low as 0.2 rad
+| The sample stack is equipped with a high accuracy air bearing rotary stage with wobble as low as 0.2 μrad and 25 nm axial and radial rounout. Therefore, tomographic reconstructions can be performed without the challenging extra-step of projections realignment by software.
 
 .. image:: ../img/Instrument.jpg
    :width: 600px
