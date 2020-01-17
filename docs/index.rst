@@ -20,7 +20,6 @@ Content
    source/about
    source/beamline_overview
    source/manual
-   source/troubleshoot
    source/support
    source/publications
 

@@ -25,7 +25,7 @@ Description
 | • **Acquisition modes:** step scans, fly scans, interlaced, fast shutter.
 | • **Operations** in a wide range of samples environments (T°= ambient to 1400°C, P up to 100 GPa), chemical bath.
 | 
-| The sample stack is equipped with a high accuracy air bearing rotary stage with wobble as low as 0.2 μrad and 25 nm axial and radial rounout. Therefore, tomographic reconstructions can be performed without the challenging extra-step of projections realignment by software.
+| The sample stack is equipped with a high accuracy air bearing rotary stage. THe wobble of the rotation axis is as low as 0.2 μrad while the axial and radial rounout is as low as 25 nm. Therefore, tomographic reconstructions can be performed without the challenging extra-step of projections realignment by software.
 
 .. image:: ../img/Instrument.jpg
    :width: 600px
@@ -54,16 +54,23 @@ Participants
 |	 • Sunil Bean (MED/AES)
 |	 • Deming Shu (MED/AES)
 |	 • Mark Erdmann (MED/AES)
+|   • Vincent De Andrade (IMG/XSD)
+|   • Alex Deriy (IMG/XSD, deriy@anl.gov)
+| • **X-ray optics development**
+|   • Michael Wojcik (OPT/XSD)
 | • **Controls**
-|	 • Kevin Peterson (BCDA/AES)
+|   • Kevin Peterson (BCDA/AES)
 |	 • Tim Mooney (BCDA/AES)
-|	 • Arthur Glowacki (XSD-SDM)
+|   • Arthur Glowacki (XSD-SDM)
+|   • Alex Deriy (IMG/XSD, deriy@anl.gov)
+|   • Francesco De Carlo (IMG/XSD)
+|   • Vincent De Andrade (IMG/XSD)
 | • **Software development for tomographic reconstructions**
 |	 • Doga Gursoy (XSD)
 |	 • Tekin Bicer (XSD)
-|	 • Viktor Nikitin (XSD)
-|	 • Vincent De Andrade (XSD)
-|	 • Francesco De Carlo (XSD)
+|	 • Viktor Nikitin (IMG/XSD)
+|	 • Vincent De Andrade (IMG/XSD)
+|	 • Francesco De Carlo (IMG/XSD)
 | • **Group leader**
 |	 • Francesco De Carlo (IMG/XSD, decarlo@anl.gov)
 
