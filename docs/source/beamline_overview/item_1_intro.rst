@@ -7,8 +7,8 @@ Introduction
 Contact
 ~~~~~~~
 | `Vincent De Andrade  <https://www.anl.gov/profile/vincent-de-andrade>`_ (vdeandrade@anl.gov)
-| Office phone #: (630)252-9241
-| Beamline phone #: (630)252-1832
+| Office phone #:   (630) 252-9241
+| Beamline phone #: (630) 252-1832
 
 
 Description
@@ -19,11 +19,11 @@ Description
  
 | Relevant information about the instrument capabilities is listed below:
 | • **Resolution:** typically 50-40 nm, but can be as high as 16 nm.
-| • **Typical exposure:** 0.2s - 1s per projection.
+| • **Typical exposure:** 0.2 s - 1 s per projection.
 | • **Energy range:** 7 to 12 keV, ∆E/E = 10\ :sup:`-4`.
 | • **Techniques:** combination of nano-scale imaging with absorption, phase contrast  & XANES spectroscopy
 | • **Acquisition modes:** step scans, fly scans, interlaced, fast shutter.
-| • **Operations** in a wide range of samples environments (T°= ambient to 1400°C, P up to 100 GPa), chemical bath.
+| • **Operations** in a wide range of samples environments (T = ambient to 1400 °C, P up to 100 GPa), chemical bath.
 | 
 | The sample stack is equipped with a high accuracy air bearing rotary stage. THe wobble of the rotation axis is as low as 0.2 μrad while the axial and radial rounout is as low as 25 nm. Therefore, tomographic reconstructions can be performed without the challenging extra-step of projections realignment by software.
 

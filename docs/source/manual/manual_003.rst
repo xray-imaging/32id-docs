@@ -1,10 +1,11 @@
 EPICS screens 
 =============
 
-| To open the EPICS screens, one needs first to start **caQtDM**.
-| Open a terminal and type::
+To open the EPICS screens, one needs first to start **caQtDM**.
 
-    start_caQtDM_32id
+Open a terminal and type::
+
+    $ start_caQtDM_32id
 
 The window "32id_beamline.ui" will open. 
 
@@ -23,6 +24,7 @@ The window "32id_beamline.ui" will open.
    :alt: project
 
 **Air pressure for the sample stage**
+
 | 1) In the window entitled “"32id_beamline.ui", click on the brown button “IOC’s”
 | 2) click on the brown button “32idcPLC”
 | 3) click on “Digital”
