@@ -21,7 +21,7 @@ Sample alignment
 
 | **Warning**: "Sample_X" and "Sample_Y" are air bearing stages. To actuate them, the air pressure of those stages needs to be turned ON by software.
 
-| When the rotary stage is at 0\ :sup:`o`, "sample top X" and "sample top Z" are respectively perpendicular and parralel to the beam.
+| When the rotary stage is at 0\ :sup:`o`, "sample top X" and "sample top Z" are respectively perpendicular and parallel to the beam.
 | To align the sample on the rotation axis, follow the 4 steps as described on the figure below:
 
 .. image:: img_guide/Sample_alignment.png
