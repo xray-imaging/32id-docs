@@ -1,5 +1,5 @@
-Beamline overview
-=================
+Overview
+========
 
 
 **The in-house Transmission X-ray Microscope of APS for in situ nano-tomography**
@@ -25,4 +25,4 @@ Beamline overview
    :glob:
    :maxdepth: 2
 
-   beamline_overview/item*
+   overview/item*

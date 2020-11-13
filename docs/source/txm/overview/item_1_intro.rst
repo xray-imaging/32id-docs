@@ -74,10 +74,3 @@ Participants
 | • **Group leader**
 |	 • Francesco De Carlo (IMG/XSD, decarlo@anl.gov)
 
-
-Publication list
-~~~~~~~~~~~~~~~~
-.. toctree::
-   :maxdepth: 1
-
-   ../publications

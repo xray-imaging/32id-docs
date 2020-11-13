@@ -12,8 +12,8 @@ Sample alignment
    :align: center
    :alt: project
 
-| 
 | Below is a zoom on the graphical user interface portion related to those axis.
+
 .. image:: img_guide/GUI_control_stages.png
    :width: 1200px
    :align: center

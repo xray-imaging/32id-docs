@@ -66,7 +66,7 @@ master_doc = 'index'
 
 # General information about the project.
 Affiliation = u'Argonne National Laboratory'
-project = u'TXM at sector 32-ID of APS'
+project = u'32-ID Docs'
 copyright = u'2020, ' + Affiliation
 
 # The version info for the project you're documenting, acts as replacement for
