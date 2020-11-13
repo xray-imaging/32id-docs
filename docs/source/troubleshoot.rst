@@ -8,6 +8,6 @@ Beamline 32-ID troubleshooting instructions
    :glob:
    :maxdepth: 1
 
-   troubleshoot/manual*
+   troubleshoot/troubleshoot*
 
    
