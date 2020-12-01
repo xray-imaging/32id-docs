@@ -11,5 +11,6 @@ add text here
    hsi/about
    hsi/overview
    hsi/manual
+   hsi/AM
    hsi/troubleshoot
    hsi/publications
