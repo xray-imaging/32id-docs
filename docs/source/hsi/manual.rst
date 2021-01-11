@@ -1,8 +1,6 @@
 ======
-Manual
+manual
 ======
-
-Beamline 32-ID operation manual
 
 .. toctree::
    :glob:

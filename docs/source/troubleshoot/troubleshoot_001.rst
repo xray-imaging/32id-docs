@@ -1,4 +1,4 @@
-Manual entry 1 
+Troubleshoot 1
 ==============
 
 Add text here
