@@ -22,7 +22,7 @@ General considerations
    :align: center
    :alt: project
 
-| 
+ 
 Manual sample preparation
 -------------------------
 | **Step 1:** pour 5 min epoxy in a container and mix for ~30 s (consider using "Devcon 5 minute exopy" since it has been proven to be more beam damage resistant than other type of epoxies).
