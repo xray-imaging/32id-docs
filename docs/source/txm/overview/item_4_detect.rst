@@ -21,7 +21,7 @@ The X-ray detection system consists of camera, lens and scintillator screens. Th
 
 Resolution & FOV
 ----------------
-| The table below provide the FOV and spatial resolution obtained with the TXM for different X-ray energies, FZPs and distance sample to detector.
+| The table below shows the FOV and spatial resolution obtained with the TXM for different X-ray energies, FZPs and [sample to detector] distances.
 
 .. image:: ../img/TXM_calc.jpg
    :width: 800px
