@@ -18,14 +18,15 @@ Description
 | As evidenced by the `publication list <https://32id-docs.readthedocs.io/en/latest/source/references.html>`_, it is an essential tool for understanding the fundamental interactions of electro-chemical systems such as energy production & storage devices, catalytic reactions, nano-fabrication, corrosion process, biologic cells, rocks, soils, etc.
  
 | Relevant information about the instrument capabilities is listed below:
-| • **Resolution:** typically 50-40 nm, but can be as high as 16 nm.
+| • **FZP objective lenses (FZP):** 50, 40 and 16 nm ∆r_n.
+| • **Resolution:** typically 50-40 nm, but can be as high as 10 nm (publication in review).
 | • **Typical exposure:** 0.2 s - 1 s per projection.
 | • **Energy range:** 7 to 12 keV, ∆E/E = 10\ :sup:`-4`.
 | • **Techniques:** combination of nano-scale imaging with absorption, phase contrast  & XANES spectroscopy
 | • **Acquisition modes:** step scans, fly scans, interlaced, fast shutter.
 | • **Operations** in a wide range of samples environments (T = ambient to 1400 °C, P up to 100 GPa), chemical bath.
 | 
-| The sample stack is equipped with a high accuracy air bearing rotary stage. THe wobble of the rotation axis is as low as 0.2 μrad while the axial and radial rounout is as low as 25 nm. Therefore, tomographic reconstructions can be performed without the challenging extra-step of projections realignment by software.
+| The sample stack is equipped with a high accuracy air bearing rotary stage. The wobble of the rotation axis is as low as 0.2 μrad while the axial and radial rounout is as low as 25 nm. Therefore, tomographic reconstructions can be performed without the challenging extra-step of projections realignment by software.
 
 .. image:: ../img/Instrument.jpg
    :width: 600px
@@ -42,6 +43,15 @@ Description
    :align: center
    :alt: project
 
+
+Resolution & FOV
+~~~~~~~~~~~~~~~~
+| The table below provide the field of view (FOV) and spatial resolution obtained with the TXM for different X-ray energies, FZPs and distance sample to detector.
+
+.. image:: ../img/TXM_calc.jpg
+   :width: 800px
+   :align: center
+   :alt: project
 
 
 Participants
