@@ -2,7 +2,7 @@
 Fast Shutters
 =============
 
-.. image:: ../img/fast_shutter.png
+.. image:: img/fast_shutter.png
    :width: 600px
    :align: center
    :alt: Fast Shutter
