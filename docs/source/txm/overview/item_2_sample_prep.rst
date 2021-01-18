@@ -22,7 +22,15 @@ General considerations
    :align: center
    :alt: project
 
- 
+Examples of bad and good samples
+-------------------------------
+| The left image is an example of bad sample preparation. Particles that need to be imaged are below the tip level and recovered with a lot of epoxy. X-ray tend to damage the epoxy. During acquisition, epoxy can deforms and generate motion of the sample, leading to blurry reconstructions.
+| The right image shows a good sample for nanotomography. The particle is above the needle level, is not recovered with epoxy and is smaller than the TXM field of view (~ 50 μm).
+.. image:: ../img/Good_bad_sple_prep_exples.jpg
+   :width: 500px
+   :align: center
+   :alt: project
+
 Manual sample preparation
 -------------------------
 | **Step 1:** pour 5 min epoxy in a container and mix for ~30 s (consider using "Devcon 5 minute exopy" since it has been proven to be more beam damage resistant than other type of epoxies).
@@ -48,3 +56,4 @@ Manual sample preparation
    :width: 600px
    :align: center
    :alt: project
+
