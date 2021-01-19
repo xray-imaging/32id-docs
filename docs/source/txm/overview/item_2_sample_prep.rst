@@ -14,9 +14,8 @@ General considerations
    :align: center
    :alt: project
 
-| 
 | At 32-ID, we typically mount our samples on insects pins (`Bioquip <https://www.bioquip.com/search/DispProduct.asp?pid=1208S000>`_, catalog # 1208S3) because they are very affordable and sharp. Sharp tip facilitates sample mounting with our 3 axis micromanipulator and 5 minutes epoxy.
-| About Si\ :sub:`3`\ N\ :sub:`4` windows, `here <https://www.norcada.com/products/xray-microscopy/>`_ is a weblink directing you to a provider. 100 or 200 nm of silicon nitride thickness doesn’t make a significant difference in term of X-ray absorption. Frame thickness of 100 or 200 µm are better than 500 µm. windowswith 500 µm frame thicness are more robust but it increases the amount of missing angles during tomographic acquisitions. A window size of 5x5 mm\ :sup:`2` is a good trade off for nanotomography. Note that (more expensive) Si\ :sub:`3`\ N\ :sub:`4` windows specifically developped for tomography are available `here <https://www.norcada.com/products/xray-tomo-devices/>`_.
+| Si\ :sub:`3`\ N\ :sub:`4` windows can be obtained from this `provider <https://www.norcada.com/products/xray-microscopy/>`_. 100 or 200 nm of silicon nitride thickness doesn’t make a significant difference in term of X-ray absorption. Windows with 100 or 200 µm frame thickness are more suitable for tomography than thicker ones. While 500 µm thicness provides more robustness to the windows, it increases the amount of missing angles during tomographic acquisitions. A window size of 5x5 mm\ :sup:`2` is a good trade off for nanotomography. Note that (more expensive) Si\ :sub:`3`\ N\ :sub:`4` windows specifically developped for tomography are available `here <https://www.norcada.com/products/xray-tomo-devices/>`_.
 
 .. image:: ../img/micromanipulators.jpg
    :width: 600px
