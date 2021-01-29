@@ -26,6 +26,7 @@ Examples of bad and good samples for tomography
 -----------------------------------------------
 | The left image is an example of bad sample preparation. Particles that need to be imaged are below the tip needle and recovered with a lot of epoxy. X-ray tend to damage the epoxy. During acquisition, epoxy can deforms and induce sample motion leading to blurry reconstructions.
 | The right image shows a good sample for nanotomography. The particle to be imaged is above the needle tip, is not recovered with epoxy and is smaller than the TXM field of view (~ 50 μm).
+
 .. image:: ../img/Good_bad_sple_prep_exples.jpg
    :width: 500px
    :align: center
