@@ -4,11 +4,7 @@ Publications
 Credits
 ~~~~~~~
 
-We kindly request that you cite the following article :cite:`Parab2018a` related to the development of the **Additive Manufacturing Process Replicator at 32-ID**
-
-.. bibliography:: bibtex/32_ID_AM_cite.bib
-   :style: plain
-   :labelprefix: A
+We kindly request that you cite the following article :cite:`Zhao2017` and :cite:`Parab2018a` related to the development of the **Additive Manufacturing Process Replicator at 32-ID**
 
 Publications list
 ~~~~~~~~~~~~~~~~~
