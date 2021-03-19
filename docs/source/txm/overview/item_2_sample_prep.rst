@@ -7,25 +7,26 @@ General considerations
 | 
 | • Samples are loaded on kinematic mounts designed *in house*. Our kinematic mounts are made out of INVAR, an alloy with very low thermal expansion coefficient in order to minimize drifts during CT acquisitions.
 | 
-| • Samples are typically mounted on steel needles. If samples are prepared with FIB, they are usually supported on very sharp tungsten needles. We have also performed experiments with samples loaded in PEEK, Kapton or Quartz capillaries, or fixed on silicon nitride windows (see sketch below). In case of samples like powder or particles in solution contained into capillaries, it is highly recommanded to use capillaries with an inner diameter as close as possible to the width of the field of view. Also, X-ray absoprtion made by the capillary walls can be assessed  on the `CXRO website <http://henke.lbl.gov/optical_constants/>`_.
+| • Samples are typically mounted on steel needles. If samples are prepared with FIB, they are usually supported on very sharp tungsten needles. We have also performed experiments with samples loaded in `PEEK <https://www.fishersci.com/shop/products/peek-tubing-360-m-o-d-5-ft-5/p-7158677#?keyword=peek+Capillary+Tubes>`_, Kapton or `quartz <https://www.hilgenberg-gmbh.de/en/products/glass-capillaries/>`_ capillaries with 50 µm inner diameter, or fixed on silicon nitride (Si\ :sub:`3`\ N\ :sub:`4`) windows (see sketch below). In case of samples like powder or particles in solution contained into capillaries, it is highly recommanded to use capillaries with an inner diameter as close as possible to the width of the field of view. Also, X-ray absoprtion made by the capillary walls can be assessed  on the `CXRO website <http://henke.lbl.gov/optical_constants/>`_.
 
 .. image:: ../img/Sample_holders.png
    :width: 800px
    :align: center
    :alt: project
 
-| 
 | At 32-ID, we typically mount our samples on insects pins (`Bioquip <https://www.bioquip.com/search/DispProduct.asp?pid=1208S000>`_, catalog # 1208S3) because they are very affordable and sharp. Sharp tip facilitates sample mounting with our 3 axis micromanipulator and 5 minutes epoxy.
+| Si\ :sub:`3`\ N\ :sub:`4` windows can be obtained from this `provider <https://www.norcada.com/products/xray-microscopy/>`_. 100 or 200 nm of silicon nitride thickness doesn’t make a significant difference in term of X-ray absorption. Windows with 100 or 200 µm frame thickness are more suitable for tomography than thicker ones. While 500 µm thicness provides more robustness to the windows, it increases the amount of missing angles during tomographic acquisitions. A window size of 5x5 mm\ :sup:`2` is a good trade off for nanotomography. Note that (more expensive) Si\ :sub:`3`\ N\ :sub:`4` windows specifically developped for tomography are available `here <https://www.norcada.com/products/xray-tomo-devices/>`_.
 
 .. image:: ../img/micromanipulators.jpg
    :width: 600px
    :align: center
    :alt: project
 
-Examples of bad and good samples
--------------------------------
-| The left image is an example of bad sample preparation. Particles that need to be imaged are below the tip level and recovered with a lot of epoxy. X-ray tend to damage the epoxy. During acquisition, epoxy can deforms and generate motion of the sample, leading to blurry reconstructions.
-| The right image shows a good sample for nanotomography. The particle is above the needle level, is not recovered with epoxy and is smaller than the TXM field of view (~ 50 μm).
+Examples of bad and good samples for tomography
+-----------------------------------------------
+| The left image is an example of bad sample preparation. Particles that need to be imaged are below the tip needle and recovered with a lot of epoxy. X-ray tend to damage the epoxy. During acquisition, epoxy can deforms and induce sample motion leading to blurry reconstructions.
+| The right image shows a good sample for nanotomography. The particle to be imaged is above the needle tip, is not recovered with epoxy and is smaller than the TXM field of view (~ 50 μm).
+
 .. image:: ../img/Good_bad_sple_prep_exples.jpg
    :width: 500px
    :align: center

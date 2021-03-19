@@ -18,7 +18,7 @@ Description
 | As evidenced by the `publication list <https://32id-docs.readthedocs.io/en/latest/source/references.html>`_, it is an essential tool for understanding the fundamental interactions of electro-chemical systems such as energy production & storage devices, catalytic reactions, nano-fabrication, corrosion process, biologic cells, rocks, soils, etc.
  
 | Relevant information about the instrument capabilities is listed below:
-| • **FZP objective lenses (FZP):** 50, 40 and 16 nm ∆r_n.
+| • **FZP objective lenses (FZP):** 50, 40 and 16 nm ∆r\ :sub:`n`.
 | • **Resolution:** typically 50-40 nm, but can be as high as 10 nm (publication in review).
 | • **Typical exposure:** 0.2 s - 1 s per projection.
 | • **Energy range:** 7 to 12 keV, ∆E/E = 10\ :sup:`-4`.
@@ -46,7 +46,7 @@ Description
 
 Resolution & FOV
 ~~~~~~~~~~~~~~~~
-| The table below provide the field of view (FOV) and spatial resolution obtained with the TXM for different X-ray energies, FZPs and distance sample to detector.
+| The table below provides the field of view (FOV) and spatial resolution obtained with the TXM for different X-ray energies, FZPs and distance sample to detector.
 
 .. image:: ../img/TXM_calc.jpg
    :width: 800px

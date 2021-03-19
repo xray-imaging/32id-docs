@@ -42,6 +42,13 @@ About
      - :math:`2`
      - :math:`ms^{-1}` 
 
+**Laser Beam Caustic**
+
+.. image:: ../img/beamcaustic10pc.png
+   :width: 600px
+   :align: center
+   :alt: Additive Manufacturing
+     
 **Sample Guidance**
 
 The facilitate the highest possible frame rates the samples should attenuate as little of the X-ray beam as possible whilst maintaining suffient contrast on the features to be studied. Below is a figure charting the the attenuation length where the thickness of the sample would block 63% of the incoming X-ray beam intensity. It is possible to use substantially thicker samples than indicated at the compromise of the frame rate.
