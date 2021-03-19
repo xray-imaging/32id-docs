@@ -1,0 +1,9 @@
+Optics
+======
+
+Optic magnification calculation to generate tables use this `xlsx spreadsheet <https://anl.box.com/s/ayqcs8zaeozijwkv6z4thl03j94ipmci>`_.
+
+.. image:: ../img/Optics.png
+   :width: 800px
+   :align: center
+   :alt: project
