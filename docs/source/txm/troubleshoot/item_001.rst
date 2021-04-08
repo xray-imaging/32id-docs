@@ -55,6 +55,18 @@ webcams are accessible from::
     32-ID-C: xxx.xx.102.90
     32-ID-C: xxx.xx.102.88
 
+Queensgate
+----------
+
+.. image:: ../img/queensgate_01.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+.. image:: ../img/queensgate_02.png
+   :width: 400px
+   :align: center
+   :alt: project
 
 Point Gray Camera
 -----------------
@@ -245,6 +257,23 @@ Switching magnification of the detector:
 - #2 = middle scintillator = 2X (motor pos = 45)
 - #3 = outboard scintillator = 5x (motor pos = 0)
 - #1 = inboard scintillator = 5X with tube lens and ESRF thin film scintillator (motor pos = 80)  Important to use this one, the use of a tube lens (thanks Alan!) improve image quality.
+
+
+Flag
+----
+
+Connect to xxx.xx.102.81 and look at the video feed "1". To move the flag up:
+
+.. image:: ../img/khozu_info_1.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+.. image:: ../img/khozu_info_2.png
+   :width: 400px
+   :align: center
+   :alt: project
+
 
 Rotary stage
 ------------
