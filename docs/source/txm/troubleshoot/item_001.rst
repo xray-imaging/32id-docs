@@ -44,7 +44,7 @@ Mirror
    :align: center
    :alt: project
 
-   
+
 Web Cam
 -------
 
@@ -123,7 +123,17 @@ He valve control
 
 The medm user interface is accessible from the main beamline screen under: <IOC> <32idcPLC> <DAC> <PLC DAC>
 
-.. image:: ../img/plcDAC.png
+.. image:: ../img/ioc_list.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+.. image:: ../img/plc_ui.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+.. image:: ../img/plc_dac.png
    :width: 400px
    :align: center
    :alt: project
