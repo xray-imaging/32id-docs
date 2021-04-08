@@ -3,6 +3,48 @@ Check lists
 
 Here are check lists for how to operate various TXM components. You can find the same as pdf `here <https://anl.box.com/s/fzz3a0z0cfk06wagb45ccbk2brfu8qrj>`_.
 
+
+Energy
+------
+
+First start the main beamline control system with::
+
+    usr32idc@txmone $ ./start_caQtDM_32id
+
+.. image:: ../img/epics_main.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+then select the Kohzu DCM:
+
+.. image:: ../img/dcm.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+Also check that the undulator is set at:
+
+.. image:: ../img/undulator.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+
+Mirror
+------
+
+.. image:: ../img/mirror.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+.. image:: ../img/mirror_energy.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+   
 Web Cam
 -------
 
@@ -21,12 +63,25 @@ This is the main TXM detector, to start, stop, medm use::
 
     usr32idc@txmone $ 32idcPG1 start | status | stop | medm
 
+
+to change lens:
+
+.. image:: ../img/visible_light_objective.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+
 Micronix Piezo stages
 ---------------------
 
 To move the phase ring::
 
     usr32idc@txmone $ 32idcSOFT start | status | stop | medm
+
+medm start the standard EPICS ioc medm. To get the UI to control the Micronix stages::
+
+  
 
 CRLs
 ----
