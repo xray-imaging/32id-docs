@@ -103,7 +103,17 @@ To move the CRLs actuators::
 
 The medm user interface is also accessible from the main beamline screen under: <IOC> <32idbPLC> <Digital> <PLC relays with DESC>
 
-.. image:: ../img/plcRelay_top.png
+.. image:: ../img/plcRelay_top_1.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+.. image:: ../img/plcRelay_top_2.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+.. image:: ../img/plcRelay_top_3.png
    :width: 400px
    :align: center
    :alt: project
