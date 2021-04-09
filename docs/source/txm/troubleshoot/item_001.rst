@@ -44,7 +44,6 @@ Mirror
    :align: center
    :alt: project
 
-
 Web Cam
 -------
 
@@ -121,7 +120,19 @@ The medm user interface is accessible from the main beamline screen under: <IOC>
 
 X and Y can’t be actuated with “Stage High-Pressure” ON.
 
-.. image:: ../img/graniteAirValves.png
+.. image:: ../img/graniteAirValves_1.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+
+.. image:: ../img/graniteAirValves_2.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+
+.. image:: ../img/graniteAirValves_3.png
    :width: 400px
    :align: center
    :alt: project
