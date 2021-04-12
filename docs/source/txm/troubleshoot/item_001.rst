@@ -44,7 +44,6 @@ Mirror
    :align: center
    :alt: project
 
-
 Web Cam
 -------
 
@@ -104,7 +103,17 @@ To move the CRLs actuators::
 
 The medm user interface is also accessible from the main beamline screen under: <IOC> <32idbPLC> <Digital> <PLC relays with DESC>
 
-.. image:: ../img/plcRelay_top.png
+.. image:: ../img/plcRelay_top_1.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+.. image:: ../img/plcRelay_top_2.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+.. image:: ../img/plcRelay_top_3.png
    :width: 400px
    :align: center
    :alt: project
@@ -121,7 +130,19 @@ The medm user interface is accessible from the main beamline screen under: <IOC>
 
 X and Y can’t be actuated with “Stage High-Pressure” ON.
 
-.. image:: ../img/graniteAirValves.png
+.. image:: ../img/graniteAirValves_1.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+
+.. image:: ../img/graniteAirValves_2.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+
+.. image:: ../img/graniteAirValves_3.png
    :width: 400px
    :align: center
    :alt: project
