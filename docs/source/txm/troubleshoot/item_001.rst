@@ -233,6 +233,21 @@ Favor low frequency to avoid detuning the pitch and yaw of the condenser too qui
    :align: center
    :alt: project
 
+Zone Plate
+----------
+
+.. image:: ../img/align40nm.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+.. image:: ../img/align50nm.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+
+
 Furnace Control
 ---------------
 
