@@ -123,9 +123,8 @@ To move the phase ring::
 
     usr32idc@txmone $ 32idcSOFT start | status | stop | medm
 
-medm start the standard EPICS ioc medm. To get the UI to control the Micronix stages::
+medm start the standard EPICS ioc medm. To get the UI to control the Micronix stages.
 
-  
 
 CRLs
 ----
@@ -226,6 +225,7 @@ For instance:
 
 - if exposure = 0.5s, frequency should not be 1 or 2 Hz but 0.5 or 1.5 Hz.
 - if exposure =1 s, frequency can be 1, 2, 3, 4 Hz, etc.
+
 Favor low frequency to avoid detuning the pitch and yaw of the condenser too quickly.
 
 .. image:: ../img/measCompShaker.png
