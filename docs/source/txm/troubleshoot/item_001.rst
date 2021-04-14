@@ -4,8 +4,8 @@ Check lists
 Here are check lists for how to operate various TXM components. You can find the same as pdf `here <https://anl.box.com/s/fzz3a0z0cfk06wagb45ccbk2brfu8qrj>`_.
 
 
-Energy
-------
+DCM
+---
 
 First start the main beamline control system with::
 
@@ -29,6 +29,39 @@ Also check that the undulator is set at:
    :width: 400px
    :align: center
    :alt: project
+
+DCM temperature
+~~~~~~~~~~~~~~~
+
+You can check the DCM temperature with:
+
+.. image:: ../img/dcm_01.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+.. image:: ../img/dcm_02.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+Phase Ring
+----------
+
+Low Z Siemens star with phase ring out:
+
+.. image:: ../img/phase_ring_out.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+Low Z Siemens star with phase ring in:
+
+.. image:: ../img/phase_ring_in.png
+   :width: 400px
+   :align: center
+   :alt: project   
+
 
 
 Mirror
