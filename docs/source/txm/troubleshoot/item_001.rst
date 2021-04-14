@@ -45,6 +45,24 @@ You can check the DCM temperature with:
    :align: center
    :alt: project
 
+Phase Ring
+----------
+
+Low Z Siemens star with phase ring out:
+
+.. image:: ../img/phase_ring_out.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+Low Z Siemens star with phase ring in:
+
+.. image:: ../img/phase_ring_in.png
+   :width: 400px
+   :align: center
+   :alt: project   
+
+
 
 Mirror
 ------
