@@ -233,13 +233,36 @@ Favor low frequency to avoid detuning the pitch and yaw of the condenser too qui
    :align: center
    :alt: project
 
-Zone Plate
-----------
+
+
+Beam Stop
+---------
+
+Image will all optics out:
+
+.. image:: ../img/txm_all_out.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+Image with the beam stop in:
+
+.. image:: ../img/txm_beam_stop.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+Siemens Star
+------------
+
+Using the 40nm Zone Plate, this is how the 40 nm Siemens star looks like:
 
 .. image:: ../img/align40nm.png
    :width: 400px
    :align: center
    :alt: project
+
+and this is how the 50 nm looks like:
 
 .. image:: ../img/align50nm.png
    :width: 400px
