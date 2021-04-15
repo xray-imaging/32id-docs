@@ -233,8 +233,6 @@ Favor low frequency to avoid detuning the pitch and yaw of the condenser too qui
    :align: center
    :alt: project
 
-
-
 Beam Stop
 ---------
 
@@ -255,20 +253,26 @@ Image with the beam stop in:
 Siemens Star
 ------------
 
-Using the 40nm Zone Plate, this is how the 40 nm Siemens star looks like:
+using the 40 nm Zone Plate:
 
 .. image:: ../img/align40nm.png
    :width: 400px
    :align: center
    :alt: project
 
-and this is how the 50 nm looks like:
+using the 50 nm Zone Plate:
 
 .. image:: ../img/align50nm.png
    :width: 400px
    :align: center
    :alt: project
 
+using the 20 nm Zone Plate:
+
+.. image:: ../img/align20nm.png
+   :width: 400px
+   :align: center
+   :alt: project
 
 
 Furnace Control
@@ -436,4 +440,3 @@ If the xbpm_SIEPA3P.opi screen isn't open when CSS launches, to do the following
 2. Open with -> OPI Display (Workbench)
 3. Click "Start BPM Display" (the screen opens in the right pane)
 4. Drag the screen's tab from the right pane to the center pane
-
