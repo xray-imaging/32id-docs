@@ -233,6 +233,25 @@ Favor low frequency to avoid detuning the pitch and yaw of the condenser too qui
    :align: center
    :alt: project
 
+
+
+Beam Stop
+---------
+
+Image will all optics out:
+
+.. image:: ../img/txm_all_out.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+Image with the beam stop in:
+
+.. image:: ../img/txm_beam_stop.png
+   :width: 400px
+   :align: center
+   :alt: project
+
 Siemens Star
 ------------
 
