@@ -255,21 +255,21 @@ Siemens Star
 
 using the 40 nm Zone Plate:
 
-.. image:: ../img/align40nm.png
+.. image:: ../img/siemens_star_40nmFZP.png
    :width: 400px
    :align: center
    :alt: project
 
 using the 50 nm Zone Plate:
 
-.. image:: ../img/align50nm.png
+.. image:: ../img/siemens_star_50nmFZP.png
    :width: 400px
    :align: center
    :alt: project
 
-using the 20 nm Zone Plate:
+using the 16 nm Zone Plate:
 
-.. image:: ../img/align20nm.png
+.. image:: ../img/siemens_star_16nmFZP.png
    :width: 400px
    :align: center
    :alt: project
