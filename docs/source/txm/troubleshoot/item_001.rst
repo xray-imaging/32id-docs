@@ -274,6 +274,14 @@ using the 16 nm Zone Plate:
    :align: center
    :alt: project
 
+zone plate selfy using the 16 nm Zone Plate:
+
+.. image:: ../img/zp_selfie_16nmFZP.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+
 
 Furnace Control
 ---------------
