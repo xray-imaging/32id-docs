@@ -12,7 +12,7 @@ First start the main beamline control system with::
     usr32idc@txmone $ ./start_caQtDM_32id
 
 .. image:: ../img/epics_main.png
-   :width: 400px
+   :width: 500px
    :align: center
    :alt: project
 
@@ -26,7 +26,7 @@ then select the Kohzu DCM:
 Also check that the undulator is set at:
 
 .. image:: ../img/undulator.png
-   :width: 400px
+   :width: 200px
    :align: center
    :alt: project
 
@@ -41,7 +41,7 @@ You can check the DCM temperature with:
    :alt: project
 
 .. image:: ../img/dcm_02.png
-   :width: 400px
+   :width: 200px
    :align: center
    :alt: project
 
@@ -91,7 +91,7 @@ Queensgate
 ----------
 
 .. image:: ../img/queensgate_01.png
-   :width: 400px
+   :width: 200px
    :align: center
    :alt: project
 
@@ -111,7 +111,7 @@ This is the main TXM detector, to start, stop, medm use::
 to change lens:
 
 .. image:: ../img/visible_light_objective.png
-   :width: 400px
+   :width: 200px
    :align: center
    :alt: project
 
@@ -274,6 +274,14 @@ using the 16 nm Zone Plate:
    :align: center
    :alt: project
 
+zone plate selfy using the 16 nm Zone Plate:
+
+.. image:: ../img/zp_selfie_16nmFZP.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+
 
 Furnace Control
 ---------------
@@ -361,12 +369,12 @@ Flag
 Connect to xxx.xx.102.81 and look at the video feed "1". To move the flag up:
 
 .. image:: ../img/khozu_info_1.png
-   :width: 400px
+   :width: 200px
    :align: center
    :alt: project
 
 .. image:: ../img/khozu_info_2.png
-   :width: 400px
+   :width: 200px
    :align: center
    :alt: project
 
