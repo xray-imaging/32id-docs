@@ -448,3 +448,13 @@ If the xbpm_SIEPA3P.opi screen isn't open when CSS launches, to do the following
 2. Open with -> OPI Display (Workbench)
 3. Click "Start BPM Display" (the screen opens in the right pane)
 4. Drag the screen's tab from the right pane to the center pane
+
+PID control
+-----------
+
+The BPM PID control parametes are accessible from these medm screens:
+
+.. image:: ../img/PID_controls.png
+   :width: 200px
+   :align: center
+   :alt: project
