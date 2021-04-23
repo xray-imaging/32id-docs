@@ -454,7 +454,9 @@ PID control
 
 The BPM PID control parametes are accessible from: 
 
-.. image:: ../img/PID_controls_vertical.png
+Horizontal:
+
+.. image:: ../img/PID_controls_horizontal.png
    :width: 200px
    :align: center
    :alt: project
@@ -466,9 +468,3 @@ Vertical:
    :align: center
    :alt: project
 
-Horizontal:
-
-.. image:: ../img/PID_controls_horizontal.png
-   :width: 200px
-   :align: center
-   :alt: project
