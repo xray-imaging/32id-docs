@@ -440,7 +440,7 @@ The IOC can be started with this command::
 
 CSS and the vendor screens have been installed locally in the usr32idc home directory and can be launched with this command on 32idcws::
 
-    usr32idc@32idcws% 32idcws% 32idcBPM css
+    usr32idc@32idcws% 32idcBPM css
 
 If the xbpm_SIEPA3P.opi screen isn't open when CSS launches, to do the following:
 
