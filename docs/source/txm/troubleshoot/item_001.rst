@@ -452,9 +452,23 @@ If the xbpm_SIEPA3P.opi screen isn't open when CSS launches, to do the following
 PID control
 -----------
 
-The BPM PID control parametes are accessible from these medm screens:
+The BPM PID control parametes are accessible from: 
 
-.. image:: ../img/PID_controls.png
+.. image:: ../img/PID_controls_vertical.png
+   :width: 200px
+   :align: center
+   :alt: project
+
+Vertical:
+
+.. image:: ../img/PID_controls_vertical.png
+   :width: 200px
+   :align: center
+   :alt: project
+
+Horizontal:
+
+.. image:: ../img/PID_controls_horizontal.png
    :width: 200px
    :align: center
    :alt: project
