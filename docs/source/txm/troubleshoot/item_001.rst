@@ -90,6 +90,12 @@ webcams are accessible from::
 Queensgate
 ----------
 
+
+.. image:: ../img/queensgate_00.png
+   :width: 200px
+   :align: center
+   :alt: project
+
 .. image:: ../img/queensgate_01.png
    :width: 200px
    :align: center
