@@ -217,6 +217,19 @@ The medm user interface is accessible from the main beamline screen under: <IOC>
 Condenser shaker
 ----------------
 
+
+Open the shaker control from:
+
+.. image:: ../img/measCompShaker_01.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+.. image:: ../img/measCompShaker_02.png
+   :width: 400px
+   :align: center
+   :alt: project
+
 To operate the condenser shaker (piezo jena)
 
 - Use the short cut on the windows 10 machine desktop
@@ -234,10 +247,12 @@ For instance:
 
 Favor low frequency to avoid detuning the pitch and yaw of the condenser too quickly.
 
-.. image:: ../img/measCompShaker.png
+.. image:: ../img/measCompShaker_03.png
    :width: 400px
    :align: center
    :alt: project
+
+
 
 Beam Stop
 ---------
