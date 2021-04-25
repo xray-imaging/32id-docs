@@ -217,6 +217,12 @@ The medm user interface is accessible from the main beamline screen under: <IOC>
 Condenser shaker
 ----------------
 
+To start the shaker IOC use the short cut on the desktop of the windows 10 machine called "postulate"
+
+::
+
+  xfreerdp -u usr32idc -d postulate -g 1900x1000 postulate
+
 
 Open the shaker control from:
 
@@ -232,7 +238,6 @@ Open the shaker control from:
 
 To operate the condenser shaker (piezo jena)
 
-- Use the short cut on the windows 10 machine desktop
 - Waveform A (red curve) controls the vertical sweeping of the condenser
 - Waveform B (blue curve) controls the horizontal sweeping of the condenser
 - Select the Lissajou trajectory function
