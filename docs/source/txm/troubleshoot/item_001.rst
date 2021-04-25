@@ -1,8 +1,17 @@
 Check lists
 ===========
 
-Here are check lists for how to operate various TXM components. You can find the same as pdf `here <https://anl.box.com/s/fzz3a0z0cfk06wagb45ccbk2brfu8qrj>`_.
+To start the TXM user interface::
 
+    usr32idc@txmone $ start_txm
+
+.. image:: ../img/start_txm.png
+   :width: 500px
+   :align: center
+   :alt: project
+
+
+Here are check lists for how to operate various TXM components. You can find the same as pdf `here <https://anl.box.com/s/fzz3a0z0cfk06wagb45ccbk2brfu8qrj>`_.
 
 DCM
 ---
