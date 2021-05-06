@@ -1,6 +1,6 @@
-======
-manual
-======
+=======
+Manuals
+=======
 
 .. toctree::
    :glob:
