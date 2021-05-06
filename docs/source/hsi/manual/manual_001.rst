@@ -9,23 +9,25 @@ Cameras
 
 These are the model/part number of the cameras in use at 32-ID:
 
-.. _Photron:  https://anl.box.com/s/vc7n40d87b7kh16fiw3gjo76m88dq7mu 
+.. _Photron_SA1:  https://anl.box.com/s/dl1cn7gra9sqerp1f9u7rd0s8hglctly
+.. _Photron_SAZ:  https://anl.box.com/s/vc7n40d87b7kh16fiw3gjo76m88dq7mu 
 .. _Shimadzu:  https://anl.box.com/s/y5a0pxn0l1q5rqfl2yw7audsxwym8emw      
-.. _Photron_order:  https://apps.inside.anl.gov/paris/search.jsp
+.. _Photron_SA1_order:  https://anl.box.com/s/sgm3d7hg0zwlpum8s4jfdru5765op2a4
+.. _Photron_SAZ_order:  https://anl.box.com/s/tnq59lqep0egz4i18jxu4i5olx5ikhlx
 .. _Shimadzu_order: https://apps.inside.anl.gov/paris/req.jsp?reqNbr=G9-281070    
 
 
 +-------------------------------------------------------------+--------------+------------------+---------+------------+--------------------+
 |                   Camera                                    | pixels (HxV) | pixels size (μm) |   bit   | fps        |      Manual        |
 +=============================================================+==============+==================+=========+============+====================+
-| Photron FastCam SA 1.1                                      |              |                  |         |            |     Photron_       |
+| Photron FastCam SA 1.1                                      |              |                  |         |            |     Photron_SA1_   |
 +-------------------------------------------------------------+--------------+------------------+---------+------------+--------------------+
-| Photron FastCam SA-Z                                        |              |                  |         |            |     Photron_       |
+| Photron FastCam SA-Z                                        |              |                  |         |            |     Photron_SAZ_   |
 +-------------------------------------------------------------+--------------+------------------+---------+------------+--------------------+
 | Shimadzu Hyper Vision HPV-X2                                |              |                  |         |            |     Shimadzu_      |
 +-------------------------------------------------------------+--------------+------------------+---------+------------+--------------------+
 
-The purchase record can be found at Photron_order_, Shimadzu_order_.
+The purchase record can be found at Photron_SA1_order_, Photron_SAZ_order_, Shimadzu_order_.
 
 Lenses
 ------
