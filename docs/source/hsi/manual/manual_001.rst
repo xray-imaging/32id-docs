@@ -29,6 +29,39 @@ These are the model/part number of the cameras in use at 32-ID:
 
 The purchase record can be found at Photron_SA1_order_, Photron_SAZ_order_, Shimadzu_order_.
 
+Photron
+-------
+
+To use the `Photron areaDetector <https://htmlpreview.github.io/?https://github.com/kmpeters/ADPhotron/blob/master/documentation/PhotronDoc.html>`_ software installed on fusion::
+
+  [usr32idc@txmtwo]$ ~/remote_fusion
+
+then click on this desktop icon:
+
+.. image:: ../img/ADPhotronIOC.png 
+   :width: 50px
+   :align: center
+   :alt: tomo_user
+
+or open a dos terminal and type::
+
+	cd c:\epics\ioc\32idbSA1\iocBoot\ioc32idbSA1
+	start_epics.bat
+
+then run::
+
+	[usr32idc@txmtwo]$ medm -x -macro "P=32idbSA1:, R=cam1:" Photron.adl
+
+to obtain the Photron areadetector main control:
+
+.. image:: ../img/ADPhotron.png 
+   :width: 720px
+   :align: center
+   :alt: tomo_user
+
+To collect an image press Acquire Start.
+
+
 Lenses
 ------
 
