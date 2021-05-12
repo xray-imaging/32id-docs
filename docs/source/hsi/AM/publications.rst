@@ -13,5 +13,5 @@ Publications list
 
 .. bibliography:: bibtex/32_ID_AM.bib
    :style: reversedate
-   :labelprefix: B
+   :labelprefix: A
    :all:
