@@ -97,7 +97,7 @@ Scintillators
 |  ~          |     LYSO:Ce      |        100      |     10         |
 +-------------+------------------+-----------------+----------------+
 
-Below are the emission spectra plots of the scintillator screen materials:
+Below are the emission spectra plots of the scintillator screen materials using data from :cite:`Rutherford2016` and :cite:`Olbinado2017`:
 
 .. image:: ../img/Scintilator_I.png
    :width: 440px
