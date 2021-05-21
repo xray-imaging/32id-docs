@@ -2,9 +2,6 @@
 High Speed Imaging
 ==================
 
-add text here
-
-
 .. toctree::
    :maxdepth: 1
 
