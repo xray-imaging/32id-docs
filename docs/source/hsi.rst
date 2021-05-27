@@ -10,4 +10,3 @@ High Speed Imaging
    hsi/manual
    hsi/AM
    hsi/troubleshoot
-   hsi/publications

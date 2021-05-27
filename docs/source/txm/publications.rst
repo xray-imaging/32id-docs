@@ -15,7 +15,6 @@ If you have been using the **Distributed Optimization for Nonrigid Nano-Tomograp
    :labelprefix: A
 
 
-
 List
 ~~~~
 
@@ -23,5 +22,5 @@ List
 
 .. bibliography:: bibtex/ref.bib
    :style: reversedate
-   :labelprefix: B
+   :labelprefix: T
    :all:
