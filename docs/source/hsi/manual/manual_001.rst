@@ -114,5 +114,5 @@ References
 
 .. bibliography:: bibtex/scintilators.bib
    :style: reversedate
-   :labelprefix: A
+   :labelprefix: S
    :all:
