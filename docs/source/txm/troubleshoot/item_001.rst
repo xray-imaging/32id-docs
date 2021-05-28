@@ -70,7 +70,7 @@ To start the shaker IOC use the short cut on the desktop of the windows 10 machi
 
 ::
 
-  xfreerdp -u usr32idc -d postulate -g 1900x1000 postulate
+  xfreerdp /u:usr32idc /d:postulate /size:1900x1000 /v:postulate
 
 
 Open the shaker control from:
