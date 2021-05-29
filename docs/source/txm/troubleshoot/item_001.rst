@@ -1,6 +1,8 @@
 Check lists
 ===========
 
+Here are check lists for how to operate various TXM components. You can find the starting document at `here <https://anl.box.com/s/fzz3a0z0cfk06wagb45ccbk2brfu8qrj>`_.
+
 Beam Stop
 ---------
 
@@ -496,6 +498,11 @@ To start the tomoScan ioc::
 
    usertxm@txmtwo $ start_IOC
 
+.. image:: ../img/tomoscan_01.png
+   :width: 500px
+   :align: center
+   :alt: project
+
 
 User Interface
 --------------
@@ -508,10 +515,6 @@ To start the TXM user interface::
    :width: 500px
    :align: center
    :alt: project
-
-
-Here are check lists for how to operate various TXM components. You can find the same as pdf `here <https://anl.box.com/s/fzz3a0z0cfk06wagb45ccbk2brfu8qrj>`_.
-
 
 
 XY stages
