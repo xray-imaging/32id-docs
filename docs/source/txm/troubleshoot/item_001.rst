@@ -72,8 +72,7 @@ To start the shaker IOC use the short cut on the desktop of the windows 10 machi
 
 ::
 
-  xfreerdp /u:usr32idc /d:XRAY /size:1900x1000 /v:postulate /sec:nla
-
+   xfreerdp /u:usr32idc /d:XRAY /size:1900x1000 /v:postulate /sec:nla
 
 Open the shaker control from:
 
@@ -439,7 +438,7 @@ Tuning the rotary stage to get perfect 90° alignment:
 After homing the motor, the dial position should be = 0
 Dial at 139.74° should be set to 90°
 
-We use an Aerotech Ennsemble:
+We use an Aerotech Ensemble:
 
 .. image:: ../img/aerotech_label.png
    :width: 400px
