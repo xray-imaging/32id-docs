@@ -439,6 +439,12 @@ Tuning the rotary stage to get perfect 90° alignment:
 After homing the motor, the dial position should be = 0
 Dial at 139.74° should be set to 90°
 
+We use an Aerotech Ennsemble:
+
+.. image:: ../img/aerotech_label.png
+   :width: 400px
+   :align: center
+   :alt: project
 
 Siemens Star
 ------------
