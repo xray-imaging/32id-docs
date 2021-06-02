@@ -467,7 +467,7 @@ then select:
    :alt: project
 
 .. image:: ../img/new_focus_03.png
-   :width: 400px
+   :width: 100px
    :align: center
    :alt: project
 
