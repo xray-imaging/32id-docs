@@ -456,17 +456,17 @@ Focus adjustment and scintillator tilts are adjustable using the
 
 then select:
 
-.. image:: ../img/new_fucus_01.png
+.. image:: ../img/new_focus_01.png
    :width: 400px
    :align: center
    :alt: project
 
-.. image:: ../img/new_fucus_02.png
+.. image:: ../img/new_focus_02.png
    :width: 400px
    :align: center
    :alt: project
 
-.. image:: ../img/new_fucus_03.png
+.. image:: ../img/new_focus_03.png
    :width: 400px
    :align: center
    :alt: project
