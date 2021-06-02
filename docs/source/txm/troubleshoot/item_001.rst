@@ -445,6 +445,33 @@ We use an Aerotech Ensemble:
    :align: center
    :alt: project
 
+Scintillator 
+------------
+
+Focus adjustment and scintillator tilts are adjustable using the 
+
+::
+   usr32idc@txmone $ ./start_caQtDM_32id
+
+then select:
+
+.. image:: ../img/new_fucus_01.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+.. image:: ../img/new_fucus_02.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+.. image:: ../img/new_fucus_03.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+
+
 Siemens Star
 ------------
 
