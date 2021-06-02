@@ -451,6 +451,7 @@ Scintillator
 Focus adjustment and scintillator tilts are adjustable using the 
 
 ::
+
    usr32idc@txmone $ ./start_caQtDM_32id
 
 then select:
