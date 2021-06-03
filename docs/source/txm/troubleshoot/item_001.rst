@@ -491,7 +491,28 @@ then select:
    :align: center
    :alt: project
 
-the focus (adjustment along Z) is controlled with a new port stage accessible from:
+the focus (adjustment along Z) is controlled with a new port stage accessible from a windows 10 machine called "sec32lt02"
+
+::
+
+  [usr32idc@txmtwo]$ xfreerdp /u:ladmin /size:1900x1000 /v:sec32lt02 /sec:nla
+
+or::
+
+  [usr32idc@txmtwo]$ ~/remote_sec32lt02
+
+then run:
+
+.. image:: ../img/focus_01.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+.. image:: ../img/focus_01.png
+   :width: 400px
+   :align: center
+   :alt: project
+
 
 Siemens Star
 ------------
