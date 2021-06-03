@@ -570,7 +570,7 @@ TomoScan
 
 To start the tomoScan ioc::
 
-   usertxm@txmtwo $ start_IOC
+   usertxm@txmtwo $ start_ioc.sh
 
 .. image:: ../img/tomoscan_01.png
    :width: 500px
