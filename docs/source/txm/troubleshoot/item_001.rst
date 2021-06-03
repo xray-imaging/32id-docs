@@ -487,7 +487,7 @@ then select:
    :alt: project
 
 .. image:: ../img/new_focus_03.png
-   :width: 400px
+   :width: 100px
    :align: center
    :alt: project
 
@@ -504,12 +504,12 @@ or::
 then run:
 
 .. image:: ../img/focus_01.png
-   :width: 400px
+   :width: 100px
    :align: center
    :alt: project
 
-.. image:: ../img/focus_01.png
-   :width: 400px
+.. image:: ../img/focus_02.png
+   :width: 200px
    :align: center
    :alt: project
 
