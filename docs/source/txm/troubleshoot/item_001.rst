@@ -248,6 +248,26 @@ To estimate T°::
     In [1]: from furnace_calibration import calibrate_temperature
     In [2]: calibrate_temperature("furnace_calibration_2020-11-28.tsv", 500)
 
+He flow control
+---------------
+
+The medm user interface is accessible from the main beamline screen under: <IOC> <32idcTXM> <new> <Analox He Sensor>
+
+.. image:: ../img/he_sensor_01.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+.. image:: ../img/he_sensor_02.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+.. image:: ../img/he_sensor_03.png
+   :width: 400px
+   :align: center
+   :alt: project
+
 
 He valve control
 ----------------
@@ -448,7 +468,7 @@ We use an Aerotech Ensemble:
 Scintillator 
 ------------
 
-Focus adjustment and scintillator tilts are adjustable using the 
+Focus scintillator tilts are adjustable using the 
 
 ::
 
@@ -471,7 +491,7 @@ then select:
    :align: center
    :alt: project
 
-
+the focus (adjustment along Z) is controlled with a new port stage accessible from:
 
 Siemens Star
 ------------
