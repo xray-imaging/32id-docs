@@ -107,6 +107,8 @@ Favor low frequency to avoid detuning the pitch and yaw of the condenser too qui
    :align: center
    :alt: project
 
+.. warning:: Before using the shaker after a long shutdown, power cycle the shaker controller and restart the epics IOC.
+
 
 CRLs
 ----
