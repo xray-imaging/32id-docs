@@ -107,6 +107,8 @@ Favor low frequency to avoid detuning the pitch and yaw of the condenser too qui
    :align: center
    :alt: project
 
+.. warning:: Before using the shaker after a long shutdown, power cycle the shaker controller and restart the epics IOC.
+
 
 CRLs
 ----
@@ -570,7 +572,7 @@ TomoScan
 
 To start the tomoScan ioc::
 
-   usertxm@txmtwo $ start_IOC
+   usertxm@txmtwo $ start_ioc.sh
 
 .. image:: ../img/tomoscan_01.png
    :width: 500px
