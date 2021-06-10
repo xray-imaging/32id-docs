@@ -500,15 +500,15 @@ then select:
    :align: center
    :alt: project
 
-the focus (adjustment along Z) is controlled with a new port stage accessible from a windows 10 machine called "sec32lt02"
+the focus (adjustment along Z) is controlled with a new port stage accessible from an EPICS IOC running on windows 10 machine called "sec32lt04". To start the IOC
 
 ::
 
-  [usr32idc@txmtwo]$ xfreerdp /u:ladmin /size:1900x1000 /v:sec32lt02 /sec:nla
+  [usr32idc@txmtwo]$ xfreerdp /u:usr32idc /size:1900x1000 /v:sec32lt04 /sec:nla
 
 or::
 
-  [usr32idc@txmtwo]$ ~/remote_sec32lt02
+  [usr32idc@txmtwo]$ ~/remote_sec32lt04
 
 then run:
 
@@ -517,10 +517,7 @@ then run:
    :align: center
    :alt: project
 
-.. image:: ../img/focus_02.png
-   :width: 200px
-   :align: center
-   :alt: project
+The focus motor control is accessible from the main txm user interface.
 
 
 Siemens Star
