@@ -21,6 +21,17 @@ Image with the beam stop in:
    :alt: project
 
 
+Computers
+---------
+
+
+The 3 main computers used by the TXM are:
+
+- txmone 
+- txmtwo: data collection (TomoScan/AreaDetector)
+- `txmthree <https://anl.box.com/s/juc23klfd676smulsjj39xuxhd4dz354>`_: data analysis (tomoPy, DragonFly)
+
+
 Condenser
 ---------
 
