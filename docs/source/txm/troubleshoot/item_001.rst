@@ -617,7 +617,7 @@ XY stages
 
 To move the air bearing XY stages::
 
-    usr32idc@32idcws $ 32idbPLC start
+    usr32idc@32idbws $ 32idbPLC start
 
 The medm user interface is accessible from the main beamline screen under: <IOC> <32idbPLC> <Digital> < Granite air valves (caQtDM only)>
 
