@@ -488,7 +488,28 @@ We use an Aerotech Ensemble:
 Scintillator 
 ------------
 
-Focus scintillator tilts are adjustable using the 
+Scintillator focus and 2 tilts are adjustable using:
+
+**focus** (adjustment along Z) is controlled with a new port stage accessible from an EPICS IOC running on windows 10 machine called "sec32lt04". To start the IOC
+
+::
+
+  [usr32idc@txmtwo]$ xfreerdp /u:usr32idc /size:1900x1000 /v:sec32lt04 /sec:nla
+
+or::
+
+  [usr32idc@txmtwo]$ ~/remote_sec32lt04
+
+then run:
+
+.. image:: ../img/focus_01.png
+   :width: 100px
+   :align: center
+   :alt: project
+
+The focus motor control is accessible from the main txm user interface.
+
+**tilt adjustments**
 
 ::
 
@@ -511,24 +532,7 @@ then select:
    :align: center
    :alt: project
 
-the focus (adjustment along Z) is controlled with a new port stage accessible from an EPICS IOC running on windows 10 machine called "sec32lt04". To start the IOC
 
-::
-
-  [usr32idc@txmtwo]$ xfreerdp /u:usr32idc /size:1900x1000 /v:sec32lt04 /sec:nla
-
-or::
-
-  [usr32idc@txmtwo]$ ~/remote_sec32lt04
-
-then run:
-
-.. image:: ../img/focus_01.png
-   :width: 100px
-   :align: center
-   :alt: project
-
-The focus motor control is accessible from the main txm user interface.
 
 
 Siemens Star
