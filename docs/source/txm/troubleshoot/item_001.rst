@@ -26,13 +26,13 @@ BPM
 
 The IOC can be started with this command::
 
-    usr32idc@32idcws% 32idcBPM start
+    usr32idc@txmone% 32idcBPM start
 
 the ioc is located at /net/s32dserv/xorApps/epics/synApps_6_0/ioc/32idcBPM/iocBoot/iocbpm/
 
 CSS and the vendor screens have been installed locally in the usr32idc home directory and can be launched with this command on 32idcws::
 
-    usr32idc@32idcws% 32idcBPM css
+    usr32idc@txmone% 32idcBPM css
 
 If the xbpm_SIEPA3P.opi screen isn't open when CSS launches, to do the following:
 
@@ -40,6 +40,13 @@ If the xbpm_SIEPA3P.opi screen isn't open when CSS launches, to do the following
 2. Open with -> OPI Display (Workbench)
 3. Click "Start BPM Display" (the screen opens in the right pane)
 4. Drag the screen's tab from the right pane to the center pane
+
+.. image:: ../img/bpm_01.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+On the above window select the KX/KY values (2000/3800) and press enter. Also set the internal bias lebel to 12V and Set the BIAS state to On.
 
 
 Computers
