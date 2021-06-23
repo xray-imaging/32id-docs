@@ -501,11 +501,17 @@ Queensgate
 Rotary stage
 ------------
 
-Tuning the rotary stage to get perfect 0° alignment:
+To home the rotary stage hit HomeR or HomeF in the motor control screen:
 
-After homing the motor, the dial position should be = 0, then set the user position at -49.74°
+.. image:: ../img/rotary_01.png
+   :width: 400px
+   :align: center
+   :alt: project
 
-We use an Aerotech Ensemble:
+
+then set the user position at -49.74°
+
+We motor controller is an Aerotech Ensemble:
 
 .. image:: ../img/aerotech_label.png
    :width: 400px
