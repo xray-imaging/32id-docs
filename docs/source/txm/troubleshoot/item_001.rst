@@ -322,7 +322,7 @@ He valve control
 
 ::
 
-    usr32idc@32idbws $ 32idbPLC start
+    usr32idc@32idcws $ 32idcPLC start
 
 The medm user interface is accessible from the main beamline screen under: <IOC> <32idcPLC> <DAC> <PLC DAC>
 
@@ -501,10 +501,9 @@ Queensgate
 Rotary stage
 ------------
 
-Tuning the rotary stage to get perfect 90° alignment:
+Tuning the rotary stage to get perfect 0° alignment:
 
-After homing the motor, the dial position should be = 0
-Dial at 139.74° should be set to 90°
+After homing the motor, the dial position should be = 0, then set the user position at -49.74°
 
 We use an Aerotech Ensemble:
 
@@ -516,7 +515,28 @@ We use an Aerotech Ensemble:
 Scintillator 
 ------------
 
-Focus scintillator tilts are adjustable using the 
+Scintillator focus and 2 tilts are adjustable using:
+
+**focus** (adjustment along Z) is controlled with a new port stage accessible from an EPICS IOC running on windows 10 machine called "sec32lt04". To start the IOC
+
+::
+
+  [usr32idc@txmtwo]$ xfreerdp /u:usr32idc /size:1900x1000 /v:sec32lt04 /sec:nla
+
+or::
+
+  [usr32idc@txmtwo]$ ~/remote_sec32lt04
+
+then run:
+
+.. image:: ../img/focus_01.png
+   :width: 100px
+   :align: center
+   :alt: project
+
+The focus motor control is accessible from the main txm user interface.
+
+**tilt adjustments**
 
 ::
 
@@ -539,24 +559,7 @@ then select:
    :align: center
    :alt: project
 
-the focus (adjustment along Z) is controlled with a new port stage accessible from an EPICS IOC running on windows 10 machine called "sec32lt04". To start the IOC
 
-::
-
-  [usr32idc@txmtwo]$ xfreerdp /u:usr32idc /size:1900x1000 /v:sec32lt04 /sec:nla
-
-or::
-
-  [usr32idc@txmtwo]$ ~/remote_sec32lt04
-
-then run:
-
-.. image:: ../img/focus_01.png
-   :width: 100px
-   :align: center
-   :alt: project
-
-The focus motor control is accessible from the main txm user interface.
 
 
 Siemens Star
@@ -621,7 +624,7 @@ XY stages
 
 To move the air bearing XY stages::
 
-    usr32idc@32idcws $ 32idbPLC start
+    usr32idc@32idbws $ 32idbPLC start
 
 The medm user interface is accessible from the main beamline screen under: <IOC> <32idbPLC> <Digital> < Granite air valves (caQtDM only)>
 
