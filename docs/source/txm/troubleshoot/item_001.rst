@@ -501,10 +501,9 @@ Queensgate
 Rotary stage
 ------------
 
-Tuning the rotary stage to get perfect 90° alignment:
+Tuning the rotary stage to get perfect 0° alignment:
 
-After homing the motor, the dial position should be = 0
-Dial at 139.74° should be set to 90°
+After homing the motor, the dial position should be = 0, then set the user position at -49.74°
 
 We use an Aerotech Ensemble:
 
