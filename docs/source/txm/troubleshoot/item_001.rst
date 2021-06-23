@@ -566,6 +566,21 @@ then select:
    :alt: project
 
 
+Shutter
+-------
+
+The TXM has a fast shutter accessible from the 32idcTXM IOC under new/uniblitz:
+
+
+.. image:: ../img/fast_shutter_01.png
+   :width: 400px
+   :align: center
+   :alt: project
+
+.. image:: ../img/fast_shutter_02.png
+   :width: 400px
+   :align: center
+   :alt: project
 
 
 Siemens Star
