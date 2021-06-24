@@ -582,6 +582,8 @@ The TXM has a fast shutter accessible from the 32idcTXM IOC under new/uniblitz:
    :align: center
    :alt: project
 
+For more information check the `shutter manual <https://anl.box.com/s/obtafsy1uaz54jyl60teellhippmbwr1>`_.
+
 
 Siemens Star
 ------------
