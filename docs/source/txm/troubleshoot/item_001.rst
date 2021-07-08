@@ -509,7 +509,7 @@ To home the rotary stage hit HomeR or HomeF in the motor control screen:
    :alt: project
 
 
-then set the user position at -49.74°
+then set the user position at 130.26°
 
 We motor controller is an Aerotech Ensemble:
 
@@ -680,3 +680,14 @@ webcams are accessible from::
     32-ID-B: xxx.xx.102.89
     32-ID-C: xxx.xx.102.90
     32-ID-C: xxx.xx.102.88
+    
+
+High resolution setup 
+-------
+date: 06/30/21
+note: condenser was at -44.2
+
+.. image:: ../img/high-res-setup.png
+   :width: 400px
+   :align: center
+   :alt: project
