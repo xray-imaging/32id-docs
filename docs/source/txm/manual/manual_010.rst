@@ -15,7 +15,7 @@ Log in as usertxm@txmtwo::
 
 if required set the beamline name and tomoScan prefix with::
 
-	[usertxm@txmtwo]$ dmagic show --beamline 32-ID --tomoscan-prefix 32id:TomoScan
+	[usertxm@txmtwo]$ dmagic show --beamline 32-ID --tomoscan-prefix 32id:TomoScan:
 
 ::
 
