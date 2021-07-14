@@ -43,7 +43,7 @@ if required set the beamline name and tomoScan prefix with::
 	2021-07-08 13:00:56,598 -   verbose          True
 	2021-07-08 13:00:56,598 - Settings
 	2021-07-08 13:00:56,598 -   beamline         32-ID
-	2021-07-08 13:00:56,598 -   tomoscan_prefix  32id:TomoScan
+	2021-07-08 13:00:56,598 -   tomoscan_prefix  32id:TomoScan:
 
 To automatically fill the tomoScan current user info::
 
