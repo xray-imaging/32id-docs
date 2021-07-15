@@ -1,32 +1,21 @@
 Visualization
 =============
 
-ImageJ
-------
-
-To start ImageJ Open a terminal::
-
-	[usertxm@txmtwo]$ .... to be completed
+Raw Data
+--------
 
 
-.. image:: img_guide/ImageJ.jpg
-   :width: 600px
-   :align: center
-   :alt: project
+To view the tomographic raw data we suggest to install `Fiji <https://imagej.net/Fiji>`_ and add `this HDF plugin <https://github.com/paulscherrerinstitute/ch.psi.imagej.hdf5>`_.
+
+Other options are `hdfview <https://support.hdfgroup.org/products/java/hdfview/>`_ or 
+`argos <https://github.com/titusjan/argos>`_.
 
 
-
-Fiji
-----
-
-Open a terminal and type::
-
-	[usertxm@txmthree]$ cd /local/Software/Fiji.app
-	[usertxm@txmthree]$ /ImageJ-linux64
-
+Reconstructed Data
+------------------
 
 Dragonfly
----------
+~~~~~~~~~
 
 
 After your data are reconstructed you can visualize using `Dragonfly <https://www.theobjects.com/dragonfly/index.html>`_
