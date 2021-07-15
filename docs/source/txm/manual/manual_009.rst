@@ -1,15 +1,13 @@
-Globus
-======
+Robot
+=====
 
 
-All internal data transfer is handled by `Globus <https://www.globus.org>`_, if the beamline globus server is down make sure to
-start the local `Globus EndPoint <https://www.globus.org/globus-connect-personal>`_ with:
+The nano tomography system is using a Universal Robots e-Series for sample loading and unloading.
 
 
-txmtwo
-~~~~~~
+.. image:: ../img/robot.png
+   :width: 320px
+   :align: center
+   :alt: robot
 
-Log in as usr32idc@txmtwo::
-
-	[usr32idc@txmtwo]$ cd /local/Software/globusconnectpersonal-3.1.5/
-	[usr32idc@txmtwo]$ globusconnect
+Operating Instruction and safety procedure are available `here <https://anl.box.com/s/6gamd4jrs970s6k5hz30l90pch7ultuv>`_.
