@@ -1,17 +1,12 @@
-Restarting ImageJ on txmone
-===========================
+Globus
+======
 
-Open a terminal::
 
-    $ cd ~/ImageJ
-    $ ./ImageJ.sh*
+All internal data transfer is handled by `Globus <https://www.globus.org>`_, if the beamline globus server is down make sure to
+start the local `Globus EndPoint <https://www.globus.org/globus-connect-personal>`_ with:
 
-| In the ImageJ main window, go in the menu <plugins> <EPICS_areaDetector> <EPICS AD Viewer>
 
-.. image:: img_guide/ImageJ.jpg
-   :width: 600px
-   :align: center
-   :alt: project
+Log in as usertxm@txmtwo::
 
-| In the new window popping up, PVPrefix must be “32idcPG3:image1:”
-| Press “Start”
+	[usertxm@txmtwo]$ cd /local/Software/globusconnectpersonal-3.1.5/
+	[usertxm@txmtwo]$ globusconnect
