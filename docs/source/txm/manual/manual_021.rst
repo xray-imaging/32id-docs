@@ -4,9 +4,9 @@ Gallery
 Below is an 3D rendering image gallery using `Dragonfly <https://www.theobjects.com/dragonfly/index.html>`_ of recently measured samples.
 
 
-.. |d00001| image:: ../img/dragonfly.png
+.. |d00001| image:: ../img/dragonfly_01.png
    :width: 50px
-   :alt: dragonfly
+   :alt: dragonfly_01
 
 
 
