@@ -25,3 +25,7 @@ Login at the beamline Linux machine and then type::
 	[usertxm@txmthree]$ cd /local/usertxm/software/dragonfly
 	[usertxm@txmthree]$ ./Dragonfly
 
+.. image:: ../img/dragonfly.png
+   :width: 320px
+   :align: center
+   :alt: dragonfly
