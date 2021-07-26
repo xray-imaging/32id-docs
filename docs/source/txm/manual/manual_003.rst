@@ -5,15 +5,15 @@ Open a terminal
 
 First, check the status typing::
 
-	[usertxm@txmtwo]$ pg status
+	[usertxm@txmtwo]$ 32pg status
 
 Then, stop the IOC::
 
-	[usertxm@txmtwo]$ pg stop
+	[usertxm@txmtwo]$ 32pg stop
 
 Restart the IOC::
 
-	[usertxm@txmtwo]$ pg start
+	[usertxm@txmtwo]$ 32pg start
 
 
 32-ID screens
