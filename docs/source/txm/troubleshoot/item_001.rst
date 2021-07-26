@@ -436,7 +436,7 @@ Point Gray camera
 -----------------
 
 .. _camera_order_00001: https://apps.inside.anl.gov/paris/req.jsp?reqNbr=F5-293065
-.. _camera_00001:  https://www.ptgrey.com/grasshopper3-91mp-mono-usb3-vision-sony-icx814-camera 
+.. _camera_00001: https://www.flir.com/products/grasshopper3-usb3/?model=GS3-U3-51S5M-C
 
 +-------------------------------------------------------------+--------------+------------------+---------+------------+--------------------+-----------------------------------------+-------------------------------+
 |                   Camera                                    | pixels (HxV) | pixels size (μm) |   bit   | fps        |      Manual        | Part number                             |          Purchase orider      |
