@@ -346,6 +346,17 @@ The medm user interface is accessible from the main beamline screen under: <IOC>
 - ao1 VAL = 2.35 -> constant amount of He in the condenser enclosure (might varies if system more or less leaky
 
 
+IOC Boot
+--------
+
+To reboot the TXM IOCs:
+
+::
+
+    usertxm@txmtwo $ iocConsole ioc32idcTXM
+    ioc32idcTXM> reboot
+
+
 Magnification
 -------------
 
@@ -436,7 +447,7 @@ Point Gray camera
 -----------------
 
 .. _camera_order_00001: https://apps.inside.anl.gov/paris/req.jsp?reqNbr=F5-293065
-.. _camera_00001:  https://www.ptgrey.com/grasshopper3-91mp-mono-usb3-vision-sony-icx814-camera 
+.. _camera_00001: https://www.flir.com/products/grasshopper3-usb3/?model=GS3-U3-51S5M-C
 
 +-------------------------------------------------------------+--------------+------------------+---------+------------+--------------------+-----------------------------------------+-------------------------------+
 |                   Camera                                    | pixels (HxV) | pixels size (μm) |   bit   | fps        |      Manual        | Part number                             |          Purchase orider      |
