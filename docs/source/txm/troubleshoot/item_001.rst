@@ -346,6 +346,17 @@ The medm user interface is accessible from the main beamline screen under: <IOC>
 - ao1 VAL = 2.35 -> constant amount of He in the condenser enclosure (might varies if system more or less leaky
 
 
+IOC Boot
+--------
+
+To reboot the TXM IOCs:
+
+::
+
+    usertxm@txmtwo $ iocConsole ioc32idcTXM
+    ioc32idcTXM> reboot
+
+
 Magnification
 -------------
 
