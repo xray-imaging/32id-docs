@@ -5,15 +5,23 @@ Open a terminal
 
 First, check the status typing::
 
-	[usertxm@txmtwo]$ 32pg status
+	[usertxm@txmtwo]$ 32ARV2 status
 
 Then, stop the IOC::
 
-	[usertxm@txmtwo]$ 32pg stop
+	[usertxm@txmtwo]$ 32ARV2 stop
 
 Restart the IOC::
 
-	[usertxm@txmtwo]$ 32pg start
+	[usertxm@txmtwo]$ 32ARV2 start
+
+the detector medm screen is accessible with::
+
+   [usertxm@txmtwo]$ 32ARV2 medm
+
+or by selecting **detector** from the main TXM medm screen.
+
+Note: old version of AreaDetector for the TXM camera is accassible using **32ARV1** alias.
 
 
 32-ID screens
