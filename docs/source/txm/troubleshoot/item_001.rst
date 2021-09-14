@@ -161,7 +161,7 @@ CRLs
 
 To move the CRLs actuators::
 
-    usr32idc@32idbws $ 32idbPLC start | status | stop | medm
+    usertxm@txmtwo $ 32idPLC start start | status | stop | medm
 
 The medm user interface is also accessible from the main beamline screen under: <IOC> <32idbPLC> <Digital> <PLC relays with DESC>
 
@@ -322,7 +322,7 @@ He valve control
 
 ::
 
-    usr32idc@32idcws $ 32idcPLC start
+    usertxm@txmtwo $ 32idPLC start start | status | stop | medm
 
 The medm user interface is accessible from the main beamline screen under: <IOC> <32idcPLC> <DAC> <PLC DAC>
 
@@ -669,7 +669,7 @@ XY stages
 
 To move the air bearing XY stages::
 
-    usr32idc@32idbws $ 32idbPLC start
+    usertxm@txmtwo $ 32idPLC start start | status | stop | medm
 
 The medm user interface is accessible from the main beamline screen under: <IOC> <32idbPLC> <Digital> < Granite air valves (caQtDM only)>
 
@@ -713,3 +713,15 @@ note: condenser was at -44.2
    :width: 400px
    :align: center
    :alt: project
+
+
+XML
+---
+
+To check the areadetector XML run:
+
+::
+
+   $ bash
+   usertxm@txmtwo$ grep -oP 'name=\"\K[^\"]+' TomoScanDetectorAttributes.xml | while read -r line ; do echo -n "$line " ; grep -q "$line" TomoScanLayout.xml && echo true || echo false ; done | grep false
+   usertxm@txmtwo$ grep -oP 'ndattribute=\"\K[^\"]+' TomoScanLayout.xml | while read -r line; do echo -n "$line "; grep -q "$line" TomoScanDetectorAttributes.xml && echo true || echo false ; done |grep false
