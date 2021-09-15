@@ -718,7 +718,7 @@ note: condenser was at -44.2
 XML
 ---
 
-To check the areadetector XML run:
+To check that the areadetector attributes and layout XML contain a set of matching names run:
 
 ::
 
