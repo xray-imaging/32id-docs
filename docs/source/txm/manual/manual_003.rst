@@ -1,9 +1,18 @@
 Detector
 ========
 
-Open a terminal
+The detection system consists of camera, lens and scintillator screens. Below we list of the camera in use at 32-ID:
 
-First, check the status typing::
+.. _camera_00001:  https://www.flir.com/products/blackfly-s-gige/?model=BFS-PGE-161S7M-C
+.. _camera_order_00001: https://apps.inside.anl.gov/paris/req.jsp?reqNbr=G1-209025
+
++-------------------------------------------------------------+--------------+------------------+---------+------------+--------------------+-----------------------------------------+-------------------------------+
+|                   Camera                                    | pixels (HxV) | pixels size (μm) |   bit   | fps        |      Manual        | Part number                             |          Purchase orider      |
++=============================================================+==============+==================+=========+============+====================+=========================================+===============================+
+| Blackfly S GigE                                             | 5230 x 3032  |       2.74       | 8-10-12 | 7          |     camera_00001_  | BFS-PGE-161S7M-C                        |   camera_order_00001_         |
++-------------------------------------------------------------+--------------+------------------+---------+------------+--------------------+-----------------------------------------+-------------------------------+
+
+To check the status of the AreaDetector IOC::
 
 	[usertxm@txmtwo]$ 32ARV2 status
 
