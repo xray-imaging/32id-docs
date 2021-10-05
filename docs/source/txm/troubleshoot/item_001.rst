@@ -529,7 +529,7 @@ To home the rotary stage hit HomeR or HomeF in the motor control screen:
    :alt: project
 
 
-then set the user position at 130.26°
+then set the user position at 129.69°
 
 We motor controller is an Aerotech Ensemble:
 
