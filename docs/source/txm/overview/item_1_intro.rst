@@ -6,8 +6,7 @@ Introduction
 
 Contact
 ~~~~~~~
-| `Vincent De Andrade  <https://www.anl.gov/profile/vincent-de-andrade>`_ (vdeandrade@anl.gov)
-| Office phone #:   (630) 252-9241
+| `Vincent De Andrade  <https://www.anl.gov/profile/viktor-nikitin>`_ (vnikitin@anl.gov)
 | Beamline phone #: (630) 252-1832
 
 
