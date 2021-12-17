@@ -2,7 +2,7 @@ Linux Workstation
 =================
 
 Mouse
------
+------
 
 If you need to make the mouse larger on a RedHat linux machine::
 

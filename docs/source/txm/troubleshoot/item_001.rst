@@ -705,7 +705,7 @@ webcams are accessible from::
     
 
 High resolution setup 
--------
+---------------------
 date: 06/30/21
 note: condenser was at -44.2
 
