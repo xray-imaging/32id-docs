@@ -4,7 +4,7 @@ Additive Manufacturing
 
 **In-house powder bed fusion test rig at APS for in situ imaging and diffraction**
 
-.. image:: img/am_schematic.png
+.. image:: ../hsi/img/am_schematic.png
    :width: 600px
    :align: center
    :alt: Additive Manufacturing
@@ -20,6 +20,7 @@ Additive Manufacturing
    :maxdepth: 1
 
    AM/about
+   AM/thermal_imaging
    AM/publications
 
    
