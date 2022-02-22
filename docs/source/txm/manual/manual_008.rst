@@ -1,7 +1,13 @@
-Data Management
-===============
+Data Tagging
+============
 
-Log in as usertxm@txmtwo::
+To tag the datasets collected during the experiment with user information we use `DMagic <https://dmagic.readthedocs.io/en/latest/>`_.
+
+DMagic automatically retrieved the current user information from the `Advanced Photon Source <http://www.aps.anl.gov>`_
+`scheduling system  <https://schedule.aps.anl.gov/>`_.
+
+
+To use DMagic during an experiment::
 
 	[usertxm@txmtwo]$ bash
 	[usertxm@txmtwo]$ conda activate dm

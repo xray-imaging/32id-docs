@@ -1,70 +1,107 @@
-Detector
-========
+Data Analisys
+=============
 
-The detection system consists of camera, lens and scintillator screens. Below we list of the camera in use at 32-ID:
+.. _cluster_folder: https://anl.box.com/s/cwqbvet2qv8239nhrof0qemyohd0jho3
+.. _cluster: https://anl.box.com/s/uysvb5ujnlugmd16r2f6o10fem9rjgvr
+.. _disk_array: https://anl.box.com/s/zzyvv7w80ltwbtf09zrjiqiw7ak6i7ge
+.. _cluster_quote: https://anl.box.com/s/j7wz6li4afoq2gs5g8feehmmz8q7whuy
+.. _disk_array_quote: https://anl.box.com/s/sbft8cbt2xcpzuuvikixr82dn9jf6zog
 
-.. _flir_web_site:  https://www.flir.com/products/blackfly-s-gige/?model=BFS-PGE-161S7M-C
-.. _camera_order_00001: https://apps.inside.anl.gov/paris/req.jsp?reqNbr=G1-209025
-.. _camera_specs: https://anl.box.com/s/wv9vy7bfle01gvxtxy5g6esght33ixpe
+For tomographic reconstruction 32-ID TXM relies on the micro tomography computing infrastructure located at 2-BM:
 
-+---------------------------+--------------------+--------------+------------------+---------+------------+--------------------+-----------------------------------------+-------------------------------+
-|        Camera             |       Web Site     | pixels (HxV) | pixels size (μm) |   bit   | fps        |      Manual        | Part number                             |          Purchase orider      |
-+===========================+====================+==============+==================+=========+============+====================+=========================================+===============================+
-| Blackfly S GigE           |  flir_web_site_    | 5230 x 3032  |       2.74       | 8-10-12 | 7          |    camera_specs_   | BFS-PGE-161S7M-C                        |   camera_order_00001_         |
-+---------------------------+--------------------+--------------+------------------+---------+------------+--------------------+-----------------------------------------+-------------------------------+
-
-
-To check the status of the AreaDetector IOC::
-
-	[usertxm@txmtwo]$ 32idARV2 status
-
-Then, stop the IOC::
-
-	[usertxm@txmtwo]$ 32idARV2 stop
-
-Restart the IOC::
-
-	[usertxm@txmtwo]$ 32idARV2 start
-
-the detector medm screen is accessible with::
-
-   [usertxm@txmtwo]$ 32idARV2 medm
-
-or by selecting **detector** from the main TXM medm screen.
-
-Note: old version of AreaDetector for the TXM camera is accassible using **32ARV1** alias.
++-----------+--------------+---------------+-----------------+---------------------------------+----------------------+
+| Station   | Name         | Product       | Part list       |      Model                      |      Quote           |
++-----------+--------------+---------------+-----------------+---------------------------------+----------------------+
+| 2-BM      | tomo 1-2     | MNJ15421064   | `cluster`_      |  Supermicro 740GP-TNRT cluster  | `cluster_quote`_     |
++-----------+--------------+---------------+-----------------+---------------------------------+----------------------+
+| 2-BM      | disk array   | MNJ15508749   | `disk_array`_   |  SYS-220U-TNR Storage           | `disk_array_quote`_  |
++-----------+--------------+---------------+-----------------+---------------------------------+----------------------+
 
 
-32-ID screens
--------------
+At the APS
+----------
 
-.. image:: ../img/ADAravis_32-ID_screen0.png
-   :width: 320px
-   :align: center
-   :alt: 
+Your raw data are automatically copied from the detector to the analysis computer (handyn in this example) under the folder /local/data/YYYY-MM/PI_lastName. 
 
-.. image:: ../img/ADAravis_32-ID_screen1.png
-   :width: 320px
-   :align: center
-   :alt: 
+Manual
+~~~~~~
 
-.. image:: ../img/ADAravis_32-ID_screen2.png
-   :width: 320px
-   :align: center
-   :alt: 
+To manually reconstruct a data set, use the `tomopy cli tool <https://github.com/tomography/tomopy-cli>`_. 
+::
+
+    [tomo@tomo1,~]$ bash
+    [tomo@tomo1,~]$ conda activate tomopy
+
+then for help::
+
+    [tomo@tomo1,~]$ tomopy recon -h
+
+To do a test reconstruction type::
+
+    [tomo@tomo1,~]$ tomopy recon --file-name /local/data/YYYY-MM/PI_lastName/file.h5 
 
 
-13-BM screens
--------------
+Automatic
+~~~~~~~~~
 
-.. image:: ../img/ADAravis_13-BM_screen1.png
-   :width: 320px
-   :align: center
-   :alt: 
+To setup a reconstruction to start automatically type::
 
-.. image:: ../img/ADAravis_13-BM_screen2.png
-   :width: 320px
-   :align: center
-   :alt: 
+    [tomo@tomo1,~]$ bash
+    [tomo@tomo1,~]$ auto_rec /local/data/YYYY-MM/PI_lastName/
 
+auto_rec runs tomopy recon for each newly transferred data set with the following options::
+
+    tomopy recon --reconstruction-type try --file-name /local/data/YYYY-MM/PI_lastName/data.h5
+
+
+At your home institution
+------------------------
+
+Install the following:
+
+1. Download and install `anaconda python <https://www.anaconda.com/download/>`_ for your operative system.
+2. Create a conda environment:
+    
+::
+
+    $ conda create -n tomopy python=3.9
+
+3. Activate the newly created conda environment:
+
+::
+
+    $ conda activate tomopy
+
+
+4. Install `tomopy <https://tomopy.readthedocs.io/en/latest/>`_:
+
+::
+
+    $ conda install --channel conda-forge tomopy
+
+
+5. Install `dxchange <https://dxchange.readthedocs.io/en/latest/>`_:
+
+::
+
+    $ conda install -c conda-forge dxchange
+
+6. Install `tomopy cli <https://tomopycli.readthedocs.io/en/latest/>`_:
+
+::
+
+    $ git clone https://github.com/tomography/tomopy-cli.git
+    $ cd tomopy-cli
+    $ python setup.py install
+
+7. Install `tomopy cli dependecy <https://github.com/tomography/tomopy-cli/blob/master/requirements.txt>`_:
+
+::
+
+    pip install opencv-python
+
+
+To run a reconstuction you can now run::
+
+    $ tomopy recon --file-name /data/file.h5
 
