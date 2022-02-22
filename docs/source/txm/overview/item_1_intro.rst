@@ -6,8 +6,7 @@ Introduction
 
 Contact
 ~~~~~~~
-| `Vincent De Andrade  <https://www.anl.gov/profile/vincent-de-andrade>`_ (vdeandrade@anl.gov)
-| Office phone #:   (630) 252-9241
+| `Viktor Nikitin  <https://www.anl.gov/profile/viktor-nikitin>`_ (vnikitin@anl.gov)
 | Beamline phone #: (630) 252-1832
 
 
@@ -19,9 +18,9 @@ Description
  
 | Relevant information about the instrument capabilities is listed below:
 | • **FZP objective lenses (FZP):** 50, 40 and 16 nm ∆r\ :sub:`n`.
-| • **Resolution:** typically 50-40 nm, but can be as high as 10 nm (publication in review).
+| • **Resolution:** typically 50-40 nm, but can be as high as 10 nm 
 | • **Typical exposure:** 0.2 s - 1 s per projection.
-| • **Energy range:** 7 to 12 keV, ∆E/E = 10\ :sup:`-4`.
+| • **Energy range:** 6 to 12 keV, ∆E/E = 10\ :sup:`-4`.
 | • **Techniques:** combination of nano-scale imaging with absorption, phase contrast  & XANES spectroscopy
 | • **Acquisition modes:** step scans, fly scans, interlaced, fast shutter.
 | • **Operations** in a wide range of samples environments (T = ambient to 1400 °C, P up to 100 GPa), chemical bath.

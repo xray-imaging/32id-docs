@@ -16,19 +16,19 @@ The detection system consists of camera, lens and scintillator screens. Below we
 
 To check the status of the AreaDetector IOC::
 
-	[usertxm@txmtwo]$ 32ARV2 status
+	[usertxm@txmtwo]$ 32idARV2 status
 
 Then, stop the IOC::
 
-	[usertxm@txmtwo]$ 32ARV2 stop
+	[usertxm@txmtwo]$ 32idARV2 stop
 
 Restart the IOC::
 
-	[usertxm@txmtwo]$ 32ARV2 start
+	[usertxm@txmtwo]$ 32idARV2 start
 
 the detector medm screen is accessible with::
 
-   [usertxm@txmtwo]$ 32ARV2 medm
+   [usertxm@txmtwo]$ 32idARV2 medm
 
 or by selecting **detector** from the main TXM medm screen.
 

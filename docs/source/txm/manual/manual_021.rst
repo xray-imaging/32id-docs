@@ -1,7 +1,7 @@
 Gallery
 =======
 
-Below is an 3D rendering image gallery using `Dragonfly <https://www.theobjects.com/dragonfly/index.html>`_ of recently measured samples.
+Below is a 3D rendering image gallery of recently measured samples using `Dragonfly <https://www.theobjects.com/dragonfly/index.html>`_.
 
 
 .. |d00001| image:: ../img/dragonfly_01.png
