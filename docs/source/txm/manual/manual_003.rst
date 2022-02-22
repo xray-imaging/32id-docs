@@ -32,7 +32,13 @@ the detector medm screen is accessible with::
 
 or by selecting **detector** from the main TXM medm screen.
 
-Note: old version of AreaDetector for the TXM camera is accassible using **32ARV1** alias.
+Note: old version of AreaDetector for the TXM camera is accassible using **32idARV1** alias.
+
+
+Power cycle
+-----------
+
+To power cycle the Blackfly you can use the power management unit (PDI) **s32pdu1** outlet #1
 
 
 32-ID screens
