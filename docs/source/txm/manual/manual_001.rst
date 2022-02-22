@@ -1,42 +1,82 @@
-Computing
-=========
+User Interface 
+==============
 
-Detector
---------
+TXM Optics
+----------
 
-Here are the computers supporting detector or data analysis at 2-BM:
+Open a terminal::
 
-+-----------+--------------+-------------------+-----------------+--------------------------+---------------------+
-| Station   | Name         |      Model        |  Product No.    |    Serial No.            |        Manual       |
-+-----------+--------------+-------------------+-----------------+--------------------------+---------------------+
-| 32-ID-C   | txmtwo       | HP Z820           |                 |                          |                     |
-+-----------+--------------+-------------------+-----------------+--------------------------+---------------------+
+    $ bash
+    $ cd ~/TXM_UI/
+    $ ./tomography.sh
 
-Visualization
+The following window will open:
+
+.. image:: img_guide/GUI_main_window.png
+   :width: 1200px
+   :align: center
+   :alt: project
+
+Now, to open the window controlling the stages, go in <View> <Beamline calibration> menu
+This new window will open:
+
+.. image:: img_guide/GUI_main_control_window.png
+   :width: 1200px
+   :align: center
+   :alt: project
+
+To load a scan script like "tomo_step_scan.py" or "tomo_fly_scan.py", click on the “+” button on the lower right corner of the main window.
+
+Scan scripts are in this location::
+
+    $ cd /home/beams/USR32IDC/TXM_control/pg/
+
+
+**Note:** scanning scripts can be run directly from python::
+    
+    $ /local/usr32idc/Anaconda/bin/python tomo_fly_scan.py
+
+or directly from spyder.
+
+
+EPICS screens 
 -------------
 
-+-----------+--------------+-------------------+-----------------+--------------------------+---------------------+
-| Station   | Name         |      Model        |  Product No.    |    Serial No.            |        Manual       |
-+-----------+--------------+-------------------+-----------------+--------------------------+---------------------+
-| 32-ID-C   | txmthree     |  HP Z8 G4         |                 |                          |                     |
-+-----------+--------------+-------------------+-----------------+--------------------------+---------------------+
+To open the EPICS screens, one needs first to start **caQtDM**.
 
-.. _cluster_folder: https://anl.box.com/s/cwqbvet2qv8239nhrof0qemyohd0jho3
-.. _cluster: https://anl.box.com/s/uysvb5ujnlugmd16r2f6o10fem9rjgvr
-.. _disk_array: https://anl.box.com/s/zzyvv7w80ltwbtf09zrjiqiw7ak6i7ge
-.. _cluster_quote: https://anl.box.com/s/j7wz6li4afoq2gs5g8feehmmz8q7whuy
-.. _disk_array_quote: https://anl.box.com/s/sbft8cbt2xcpzuuvikixr82dn9jf6zog
+Open a terminal and type::
 
+    $ start_caQtDM_32id
 
-Analisys
---------
+The window "32id_beamline.ui" will open. 
 
-For tomographic reconstruction 32-ID TXM relies on the micro tomography computing infrastructure located at 2-BM:
+.. image:: img_guide/medm_main_window.png
+   :width: 1200px
+   :align: center
+   :alt: project
 
-+-----------+--------------+---------------+-----------------+---------------------------------+----------------------+
-| Station   | Name         | Product       | Part list       |      Model                      |      Quote           |
-+-----------+--------------+---------------+-----------------+---------------------------------+----------------------+
-| 2-BM      | tomo 1-2     | MNJ15421064   | `cluster`_      |  Supermicro 740GP-TNRT cluster  | `cluster_quote`_     |
-+-----------+--------------+---------------+-----------------+---------------------------------+----------------------+
-| 2-BM      | disk array   | MNJ15508749   | `disk_array`_   |  SYS-220U-TNR Storage           | `disk_array_quote`_  |
-+-----------+--------------+---------------+-----------------+---------------------------------+----------------------+
+| **More control**
+| To open the window offering more control options, click on "Admin".
+| From there, it is possible to restart ImageJ or the interface for the control of the camera by pushing the button shown in the screenshot.
+
+.. image:: img_guide/medm_stages.jpg
+   :width: 1000px
+   :align: center
+   :alt: project
+
+**Air pressure for the sample stage**
+
+| 1) In the window entitled “"32id_beamline.ui", click on the brown button “IOC’s”
+| 2) click on the brown button “32idcPLC”
+| 3) click on “Digital”
+| 4) click on “Granite Air Valves (caQtDM-only)”
+
+.. image:: img_guide/medm_PLC_granite.jpg
+   :width: 1000px
+   :align: center
+   :alt: project
+
+.. image:: img_guide/granite_air_valves.jpg
+   :width: 600px
+   :align: center
+   :alt: project

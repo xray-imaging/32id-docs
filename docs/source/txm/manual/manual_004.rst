@@ -1,22 +1,54 @@
-EPICS IOC
-=========
+Data Visualization
+==================
 
-List of the TXM related IOCs at 32 ID
+Raw Data
+--------
 
-+---------------+------------------------+-------------------------------------------------------------------------------------------------+
-|        Name   |       server           |                                                 Description                                     |
-+===============+========================+=================================================================================================+
-|  32idPLC      |   usr32idc@32idcws     | DIGITAL runs the granite stage air valves and CRL actuators and DAC runs He valve operation     |
-+---------------+------------------------+-------------------------------------------------------------------------------------------------+
-|  32idbSOFT    |   usr32idc@32idbws     | New Focus drivers in B and C stations                                                           |
-+---------------+------------------------+-------------------------------------------------------------------------------------------------+
-|  32idcTEMP    |   usr32idc@32idcws     | PTC-10 temp controller for a furnace and other thermocouples                                    |
-+---------------+------------------------+-------------------------------------------------------------------------------------------------+
-|  32idcBPM     |   usr32idc@32idcws     | SYDOR BPM                                                                                       |
-+---------------+------------------------+-------------------------------------------------------------------------------------------------+
-|  32idcMC      |   usr32idc@postulate   | capillary shaker IOC                                                                            |
-+---------------+------------------------+-------------------------------------------------------------------------------------------------+
-|  32idcMCS2    |   usr32idc@postulate   | Smaract IOC                                                                                     |
-+---------------+------------------------+-------------------------------------------------------------------------------------------------+
-|  32idcUC8     |   usr32idc@sec32lt04   | Agilent pico driver for focusing scintilators                                                   |
-+---------------+------------------------+-------------------------------------------------------------------------------------------------+
+
+To view the tomographic raw data we suggest to install `Fiji <https://imagej.net/Fiji>`_ and add `this HDF plugin <https://github.com/paulscherrerinstitute/ch.psi.imagej.hdf5>`_.
+
+Other options are `hdfview <https://support.hdfgroup.org/products/java/hdfview/>`_ or 
+`argos <https://github.com/titusjan/argos>`_.
+
+
+Reconstructed Data
+------------------
+
+Dragonfly
+~~~~~~~~~
+
+
+After your data are reconstructed you can visualize using `Dragonfly <https://www.theobjects.com/dragonfly/index.html>`_
+
+Login at the beamline Linux machine and then type::
+
+	[usertxm@txmthree]$ cd /local/usertxm/software/dragonfly
+	[usertxm@txmthree]$ ./Dragonfly
+
+
+Avizo
+~~~~~
+
+After your data are reconstructed you can visualize using Avizo.
+
+Login at the beamline Linux machine and then type:
+
+[tomo@handyn]$ cd /local/AmiraAvizo3D/2021.1/bin/
+[tomo@handyn]$ ./Avizo3D
+
+
+Gallery
+~~~~~~~
+
+Below is a 3D rendering image gallery of recently measured samples using `Dragonfly <https://www.theobjects.com/dragonfly/index.html>`_.
+
+
+.. |d00001| image:: ../img/dragonfly_01.png
+   :width: 50px
+   :alt: dragonfly_01
+
++-------------------------------------------------------------+----------------+----------------------------+
+|                        Sample/Description                   | resolution(nm) |       Images               |
++=============================================================+================+============================+
+|                                                             |       50       |       |d00001|             |
++-------------------------------------------------------------+----------------+----------------------------+

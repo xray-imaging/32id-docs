@@ -14,19 +14,23 @@ The detection system consists of camera, lens and scintillator screens. Below we
 +---------------------------+--------------------+--------------+------------------+---------+------------+--------------------+-----------------------------------------+-------------------------------+
 
 
-To check the status of the AreaDetector IOC::
+The computers supporting the Blackfly S GigE detector is:
 
-	[usertxm@txmtwo]$ 32idARV2 status
++-----------+--------------+-------------------+-----------------+--------------------------+---------------------+
+| Station   | Name         |      Model        |  Product No.    |    Serial No.            |        Manual       |
++-----------+--------------+-------------------+-----------------+--------------------------+---------------------+
+| 32-ID-C   | txmtwo       | HP Z820           |                 |                          |                     |
++-----------+--------------+-------------------+-----------------+--------------------------+---------------------+
 
-Then, stop the IOC::
 
-	[usertxm@txmtwo]$ 32idARV2 stop
+To start/stop/check the detector epics IOC::
 
-Restart the IOC::
+   [usertxm@txmtwo]$ 32idARV2 start
+   [usertxm@txmtwo]$ 32idARV2 stop
+   [usertxm@txmtwo]$ 32idARV2 status
 
-	[usertxm@txmtwo]$ 32idARV2 start
 
-the detector medm screen is accessible with::
+the detector user interface is accessible with::
 
    [usertxm@txmtwo]$ 32idARV2 medm
 
