@@ -1,82 +1,48 @@
-User Interface 
-==============
+Beamline Control
+================
 
-TXM Optics
-----------
+All beamline components and detectors are controlled using `EPICS <https://epics-controls.org/>`_ and `areaDetector <https://areadetector.github.io/master/index.html>`_.
+Each device can be configure and controlled through a graphic user interface (GUI) or through a python script using `PyEpics <https://cars9.uchicago.edu/software/python/pyepics3/>`_.
 
-Open a terminal::
+beamline
+--------
 
-    $ bash
-    $ cd ~/TXM_UI/
-    $ ./tomography.sh
+To start the main 32-ID beamline control user interface::
 
-The following window will open:
+    [usertxm@txmtwo]$ start_caQtDM_32id
 
-.. image:: img_guide/GUI_main_window.png
-   :width: 1200px
-   :align: center
-   :alt: project
-
-Now, to open the window controlling the stages, go in <View> <Beamline calibration> menu
-This new window will open:
-
-.. image:: img_guide/GUI_main_control_window.png
-   :width: 1200px
-   :align: center
-   :alt: project
-
-To load a scan script like "tomo_step_scan.py" or "tomo_fly_scan.py", click on the “+” button on the lower right corner of the main window.
-
-Scan scripts are in this location::
-
-    $ cd /home/beams/USR32IDC/TXM_control/pg/
-
-
-**Note:** scanning scripts can be run directly from python::
-    
-    $ /local/usr32idc/Anaconda/bin/python tomo_fly_scan.py
-
-or directly from spyder.
-
-
-EPICS screens 
--------------
-
-To open the EPICS screens, one needs first to start **caQtDM**.
-
-Open a terminal and type::
-
-    $ start_caQtDM_32id
-
-The window "32id_beamline.ui" will open. 
 
 .. image:: img_guide/medm_main_window.png
    :width: 1200px
    :align: center
    :alt: project
 
-| **More control**
-| To open the window offering more control options, click on "Admin".
-| From there, it is possible to restart ImageJ or the interface for the control of the camera by pushing the button shown in the screenshot.
+List of the TXM related IOCs at 32 ID:
 
-.. image:: img_guide/medm_stages.jpg
-   :width: 1000px
-   :align: center
-   :alt: project
++---------------+------------------------+-------------------------------------------------------------------------------------------------+
+|        Name   |       server           |                                                 Description                                     |
++===============+========================+=================================================================================================+
+|  32idPLC      |   usr32idc@32idcws     | DIGITAL runs the granite stage air valves and CRL actuators and DAC runs He valve operation     |
++---------------+------------------------+-------------------------------------------------------------------------------------------------+
+|  32idbSOFT    |   usr32idc@32idbws     | New Focus drivers in B and C stations                                                           |
++---------------+------------------------+-------------------------------------------------------------------------------------------------+
+|  32idcTEMP    |   usr32idc@32idcws     | PTC-10 temp controller for a furnace and other thermocouples                                    |
++---------------+------------------------+-------------------------------------------------------------------------------------------------+
+|  32idcBPM     |   usr32idc@32idcws     | SYDOR BPM                                                                                       |
++---------------+------------------------+-------------------------------------------------------------------------------------------------+
+|  32idcMC      |   usr32idc@postulate   | capillary shaker IOC                                                                            |
++---------------+------------------------+-------------------------------------------------------------------------------------------------+
+|  32idcMCS2    |   usr32idc@postulate   | Smaract IOC                                                                                     |
++---------------+------------------------+-------------------------------------------------------------------------------------------------+
+|  32idcUC8     |   usr32idc@sec32lt04   | Agilent pico driver for focusing scintilators                                                   |
++---------------+------------------------+-------------------------------------------------------------------------------------------------+
 
-**Air pressure for the sample stage**
+tomography
+----------
 
-| 1) In the window entitled “"32id_beamline.ui", click on the brown button “IOC’s”
-| 2) click on the brown button “32idcPLC”
-| 3) click on “Digital”
-| 4) click on “Granite Air Valves (caQtDM-only)”
+To start the main nano tomography control screens for 32-ID for scanning or streaming data collection select in the main beamline control screens the corresponding screen for user, admin, tomoscan, tomoscan 32-ID:
 
-.. image:: img_guide/medm_PLC_granite.jpg
-   :width: 1000px
-   :align: center
-   :alt: project
+(to be completed)
 
-.. image:: img_guide/granite_air_valves.jpg
-   :width: 600px
-   :align: center
-   :alt: project
+
+

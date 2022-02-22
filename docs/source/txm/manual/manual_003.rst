@@ -1,13 +1,11 @@
+Data Analisys
+=============
 
 .. _cluster_folder: https://anl.box.com/s/cwqbvet2qv8239nhrof0qemyohd0jho3
 .. _cluster: https://anl.box.com/s/uysvb5ujnlugmd16r2f6o10fem9rjgvr
 .. _disk_array: https://anl.box.com/s/zzyvv7w80ltwbtf09zrjiqiw7ak6i7ge
 .. _cluster_quote: https://anl.box.com/s/j7wz6li4afoq2gs5g8feehmmz8q7whuy
 .. _disk_array_quote: https://anl.box.com/s/sbft8cbt2xcpzuuvikixr82dn9jf6zog
-
-
-Data Analisys
-=============
 
 For tomographic reconstruction 32-ID TXM relies on the micro tomography computing infrastructure located at 2-BM:
 
@@ -31,16 +29,16 @@ Manual
 To manually reconstruct a data set, use the `tomopy cli tool <https://github.com/tomography/tomopy-cli>`_. 
 ::
 
-    [ tomo@tomo1,~]$ bash
-    [ tomo@tomo1,~]$ conda activate tomopy
+    [tomo@tomo1,~]$ bash
+    [tomo@tomo1,~]$ conda activate tomopy
 
 then for help::
 
-    [ tomo@tomo1,~]$ tomopy recon -h
+    [tomo@tomo1,~]$ tomopy recon -h
 
 To do a test reconstruction type::
 
-    [ tomo@tomo1,~]$ tomopy recon --file-name /local/data/YYYY-MM/PI_lastName/file.h5 
+    [tomo@tomo1,~]$ tomopy recon --file-name /local/data/YYYY-MM/PI_lastName/file.h5 
 
 
 Automatic
@@ -48,8 +46,8 @@ Automatic
 
 To setup a reconstruction to start automatically type::
 
-    [ tomo@tomo1,~]$ bash
-    [ tomo@tomo1,~]$ auto_rec /local/data/YYYY-MM/PI_lastName/
+    [tomo@tomo1,~]$ bash
+    [tomo@tomo1,~]$ auto_rec /local/data/YYYY-MM/PI_lastName/
 
 auto_rec runs tomopy recon for each newly transferred data set with the following options::
 
@@ -107,9 +105,3 @@ To run a reconstuction you can now run::
 
     $ tomopy recon --file-name /data/file.h5
 
-
-Mosaic
-------
-
-For samples larger than the field of view we collect multiple data sets consisiting of overlapping tiles to form a mosaic.
-To reconstruct these type of data please use `tile <https://tile.readthedocs.io/en/latest/>`_  command-line-interface for mosaic tomography data processing.

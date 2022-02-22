@@ -1,54 +1,70 @@
-Data Visualization
-==================
+Data Collection
+===============
 
-Raw Data
+
+.. _EPICS_NTNDA_Viewer: https://cars9.uchicago.edu/software/epics/areaDetectorViewers.html
+.. _tomoScan: https://tomoscan.readthedocs.io/en/latest/index.html
+.. _tomoScanStream: https://tomoscan.readthedocs.io/en/latest/api/tomoscan_stream_2bm.html
+.. _tomoStream: https://tomostream.readthedocs.io/en/latest/about.html
+.. _PVaccess: https://epics-controls.org/resources-and-support/documents/pvaccess/
+.. _Data Exchange: https://dxfile.readthedocs.io/en/latest/source/xraytomo.html
+
+TomoScan
 --------
 
+The tomography scans are managed by `tomoScan`_. Please refer to the `tomoScan`_ documentation for details.
 
-To view the tomographic raw data we suggest to install `Fiji <https://imagej.net/Fiji>`_ and add `this HDF plugin <https://github.com/paulscherrerinstitute/ch.psi.imagej.hdf5>`_.
+To configure a single tomographic scan enter the acquistion parameters at:
 
-Other options are `hdfview <https://support.hdfgroup.org/products/java/hdfview/>`_ or 
-`argos <https://github.com/titusjan/argos>`_.
+.. image:: img_guide/tomoScan.png
+   :width: 480px
+   :align: center
+   :alt: tomoScan
 
+Streaming data collection
+-------------------------
 
-Reconstructed Data
-------------------
+`tomoScan`_ provides also support for *streaming data collection* (see `tomoScanStream`_ documentation for details). When collecting data in streaming mode, projections, 
+dark and flat images are broadcasted using `PVaccess`_ and can be retrieved as EPICS PVs. 
 
-Dragonfly
-~~~~~~~~~
+**Streaming data collection** features are:
 
+#. Projection, dark and flat image broadcast as PV access variables
+#. On-demand retake of dark-flat field images
+#. On-demand data capturing with saving in a standard `Data Exchange`_ hdf5file
+#. Set a number of projectons ("Pre count") collected before a triggered data capturing event to be also saved in the same hdf5 file
 
-After your data are reconstructed you can visualize using `Dragonfly <https://www.theobjects.com/dragonfly/index.html>`_
+All TomoScanStream functionalies can be controlled from the Streaming Control section of:
 
-Login at the beamline Linux machine and then type::
+.. image:: img_guide/tomoScanStream.png
+    :width: 70%
+    :align: center
 
-	[usertxm@txmthree]$ cd /local/usertxm/software/dragonfly
-	[usertxm@txmthree]$ ./Dragonfly
+Streaming data reconstruction
+-----------------------------
 
+The projection, dark and flat image broadcast provided by `tomoScanStream`_ can be used to reconstruct in real-time 3 orthogonal slices. This task is accomplished by `tomoStream`_.
 
-Avizo
-~~~~~
+**Streaming data reconstruction** features are:
 
-After your data are reconstructed you can visualize using Avizo.
+#. Streaming reconstruction of 3 (X-Y-Z) ortho-slices through the sample
 
-Login at the beamline Linux machine and then type:
+#. On demand adjustment of the
 
-[tomo@handyn]$ cd /local/AmiraAvizo3D/2021.1/bin/
-[tomo@handyn]$ ./Avizo3D
+    * X Y Z ortho-slice positions
+    * reconstruction rotation center
+    * reconstruction filter
 
+All `tomoStream`_ functionalies can be controlled from the tomoStream user interface:
 
-Gallery
-~~~~~~~
+.. image:: img_guide/tomoStream.png
+    :width: 60%
+    :align: center
 
-Below is a 3D rendering image gallery of recently measured samples using `Dragonfly <https://www.theobjects.com/dragonfly/index.html>`_.
+The output of **tomostream** is a live reconstruction diplaying in ImageJ using the `EPICS_NTNDA_Viewer`_ plug-in:
 
-
-.. |d00001| image:: ../img/dragonfly_01.png
-   :width: 50px
-   :alt: dragonfly_01
-
-+-------------------------------------------------------------+----------------+----------------------------+
-|                        Sample/Description                   | resolution(nm) |       Images               |
-+=============================================================+================+============================+
-|                                                             |       50       |       |d00001|             |
-+-------------------------------------------------------------+----------------+----------------------------+
+.. image:: img_guide/tomoStreamRecon.png
+    :width: 70%
+    :align: center
+    
+While the sample is rotating is possible to optimize instrument (alignment, focus, sample to detector distance etc.) and  beamline (energy etc.) conditions and monitor the effect live on the 3 orthogonal slices. It is also possible to automatically trigger data capturing based on events occurring in the sample and its environment as a result of segmentation or machine learning.
