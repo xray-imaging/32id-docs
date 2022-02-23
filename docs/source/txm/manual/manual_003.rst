@@ -107,15 +107,18 @@ To run a reconstuction you can now run::
     $ tomopy recon --file-name /data/file.h5
 
 
-Step-by-step installation on a Windows machine
-----------------------------------------------
+Installation on Windows
+~~~~~~~~~~~~~~~~~~~~~~~
 
-See video https://anl.app.box.com/file/834443962638?s=182dsmpnxx25o2xsy6n1ozgj8rx5omjg
+For step-by-step installation on a Windows machine see `this video <https://anl.app.box.com/file/834443962638?s=182dsmpnxx25o2xsy6n1ozgj8rx5omjg>`_.
 
 
 Reconstruction on GPU
 ---------------------
-If your machine is equipped with an NVidia GPU such as the one installed in txmthree or tomo1/tomo2, then reconstruction can be done with the `tomocupy cli tool <https://github.com/tomography/tomocupy-cli>`_. The syntax is the same as in tomopy-cli.
+
+If your machine is equipped with an NVidia GPU such as the one installed in txmthree (NVidia Quadro RTX 4000) or tomo1/tomo2 (NVIDIA A100), 
+then reconstruction can be done with the `tomocupy cli tool <https://github.com/tomography/tomocupy-cli>`_. The syntax is the same as in 
+`tomopy cli <https://tomopycli.readthedocs.io/en/latest/>`_:
 ::
 
     $ tomocupy -h
