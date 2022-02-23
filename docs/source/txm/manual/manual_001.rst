@@ -28,7 +28,7 @@ List of the TXM related IOCs at 32 ID:
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
 |  32idcTEMP    |   usr32idc@32idcws     | PTC-10 temp controller for a furnace and other thermocouples                                    |
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
-|  32idcBPM     |   usr32idc@s32bcda     | SYDOR BPM (s32bcda is under rh7)                                                                                       |
+|  32idcBPM     |   usr32idc@s32bcda     | SYDOR BPM (s32bcda is under rh7)                                                                |
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
 |  32idcMC      |   usr32idc@postulate   | capillary shaker IOC                                                                            |
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
@@ -37,7 +37,7 @@ List of the TXM related IOCs at 32 ID:
 |  32idcUC8     |   usr32idc@sec32lt04   | Agilent pico driver for focusing scintilators                                                   |
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
 
-tomography
+Tomography
 ----------
 
 For tomographic data acqusition select TomoScan in the top left part of the main txm gui.
