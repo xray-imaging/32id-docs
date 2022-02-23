@@ -43,7 +43,7 @@ List of the TXM related IOCs at 32 ID
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
 
 Tomography
-----------
+==========
 
 For tomographic data acqusition select TomoScan in the top left part of the main txm gui.
 
