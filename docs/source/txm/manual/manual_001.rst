@@ -13,7 +13,7 @@ To start the main 32-ID beamline control user interface::
 
 
 .. image:: img_guide/txm_main.png
-   :width: 1200px
+   :width: 1000px
    :align: center
    :alt: project
 
@@ -43,7 +43,7 @@ tomography
 For tomographic data acqusition select TomoScan in the top left part of the main txm gui.
 
 .. image:: img_guide/tomoscan.png
-   :width: 700px
+   :width: 400px
    :align: center
    :alt: project
 
