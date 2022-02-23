@@ -9,10 +9,10 @@ beamline
 
 To start the main 32-ID beamline control user interface::
 
-    [usertxm@txmtwo]$ start_caQtDM_32id
+    [usertxm@txmtwo]$ start_txm.sh
 
 
-.. image:: img_guide/medm_main_window.png
+.. image:: img_guide/txm_main.png
    :width: 1200px
    :align: center
    :alt: project
