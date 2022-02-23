@@ -1,13 +1,23 @@
-Robot
-=====
+Optics Calculations
+===================
+
+Optics positions and resolution levels for for different TXM energies and Freshnel Zone Plates (FZP) can be calculated with using the following spreadsheet:
 
 
-The nano tomography system is using a Universal Robots e-Series for sample loading and unloading.
+`xlsx spreadsheet <https://anl.app.box.com/file/922406067043>`_.
 
-
-.. image:: ../img/robot.png
-   :width: 320px
+.. image:: ../img/Optics.png
+   :width: 800px
    :align: center
-   :alt: robot
+   :alt: project
+   
 
-Operating Instruction and safety procedure are available `here <https://anl.box.com/s/6gamd4jrs970s6k5hz30l90pch7ultuv>`_.
+Zone plate illumination can be modelled with https://github.com/nikitinvv/txm_optics
+
+.. image:: ../img/ZPillum.png
+   :width: 800px
+   :align: center
+   :alt: project
+
+
+
