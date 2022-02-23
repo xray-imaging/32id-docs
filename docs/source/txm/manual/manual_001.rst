@@ -56,8 +56,8 @@ Reference to the main 32-ID beamline control user interface
 ===========================================================
 For opening the main 32-ID caQTdm, select 32-ID Beamline in the top left part of the main TXM gui.
 
-.. image:: img_guide/tomoscan.png
-   :width: 400px
+.. image:: img_guide/medm_main_window.png
+   :width: 700px
    :align: center
    :alt: project
 
