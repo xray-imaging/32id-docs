@@ -56,7 +56,7 @@ Resolution & FOV
 Participants
 ~~~~~~~~~~~~
 | • **Beamline scientist in charge**
-|	 • `Vincent De Andrade  <https://www.anl.gov/profile/vincent-de-andrade>`_ (IMG/XSD, vdeandrade@anl.gov)
+|	 • `Viktor Nikitin  <https://www.anl.gov/profile/viktor-nikitin>`_ (IMG/XSD, vnikitin@anl.gov)
 | • **Beamline integration**
 |	 • Alex Deriy (IMG/XSD, deriy@anl.gov)
 | • **Mechanical design**
