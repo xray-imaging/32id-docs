@@ -7,7 +7,8 @@ Data Analysis
 .. _cluster_quote: https://anl.box.com/s/j7wz6li4afoq2gs5g8feehmmz8q7whuy
 .. _disk_array_quote: https://anl.box.com/s/sbft8cbt2xcpzuuvikixr82dn9jf6zog
 
-For tomographic reconstruction 32-ID TXM relies on the micro tomography computing infrastructure located at 2-BM:
+For tomographic reconstruction 32-ID TXM is typically done on machine txmthree: Intel Xeon i7 Silver 4214, 192GB RAM, NVidia Quadro RTX 4000 (8GB), 1TB SSD. 
+For processing huge data volumes the instrument relies on the micro tomography computing infrastructure located at 2-BM:
 
 +-----------+--------------+---------------+-----------------+---------------------------------+----------------------+
 | Station   | Name         | Product       | Part list       |      Model                      |      Quote           |
@@ -21,7 +22,8 @@ For tomographic reconstruction 32-ID TXM relies on the micro tomography computin
 At the APS
 ----------
 
-Your raw data are automatically copied from the detector to the analysis computer (handyn in this example) under the folder /local/data/YYYY-MM/PI_lastName. 
+Your raw data are automatically copied from the detector to the analysis computer (txmthree in this example) under the folder /local/ssd/data/YYYY-MM/PI_lastName. 
+The SSD storage is limited, therefore after processing it is recommended to move data to a slower but larger HDD storage /local/data/YYYY-MM/PI_lastName. 
 
 Manual
 ~~~~~~
@@ -29,25 +31,24 @@ Manual
 To manually reconstruct a data set, use the `tomopy cli tool <https://github.com/tomography/tomopy-cli>`_. 
 ::
 
-    [tomo@tomo1,~]$ bash
-    [tomo@tomo1,~]$ conda activate tomopy
+    [usertxm@txmthree,~]$ bash
+    [usertxm@txmthree,~]$ conda activate tomopy
 
 then for help::
 
-    [tomo@tomo1,~]$ tomopy recon -h
+    [usertxm@txmthree,~]$ tomopy recon -h
 
 To do a test reconstruction type::
 
-    [tomo@tomo1,~]$ tomopy recon --file-name /local/data/YYYY-MM/PI_lastName/file.h5 
-
+    [usertxm@txmthree,~]$ tomopy recon --file-name /local/data/YYYY-MM/PI_lastName/file.h5 
 
 Automatic
 ~~~~~~~~~
 
 To setup a reconstruction to start automatically type::
 
-    [tomo@tomo1,~]$ bash
-    [tomo@tomo1,~]$ auto_rec /local/data/YYYY-MM/PI_lastName/
+    [usertxm@txmthree,~]$ bash
+    [usertxm@txmthree,~]$ auto_rec /local/data/YYYY-MM/PI_lastName/
 
 auto_rec runs tomopy recon for each newly transferred data set with the following options::
 
@@ -104,4 +105,19 @@ Install the following:
 To run a reconstuction you can now run::
 
     $ tomopy recon --file-name /data/file.h5
+
+
+Step-by-step installation on a Windows machine
+----------------------------------------------
+
+See video https://anl.app.box.com/file/834443962638?s=182dsmpnxx25o2xsy6n1ozgj8rx5omjg
+
+
+Reconstruction on GPU
+---------------------
+If your machine is equipped with an NVidia GPU such as the one installed in txmthree or tomo1/tomo2, then reconstruction can be done with the `tomocupy cli tool <https://github.com/tomography/tomocupy-cli>`_. The syntax is the same as in tomopy-cli.
+::
+
+    $ tomocupy -h
+
 
