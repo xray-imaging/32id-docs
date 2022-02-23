@@ -1,4 +1,4 @@
-Data Analisys
+Data Analysis
 =============
 
 .. _cluster_folder: https://anl.box.com/s/cwqbvet2qv8239nhrof0qemyohd0jho3
