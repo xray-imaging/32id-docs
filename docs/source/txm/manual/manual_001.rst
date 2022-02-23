@@ -28,7 +28,7 @@ List of the TXM related IOCs at 32 ID:
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
 |  32idcTEMP    |   usr32idc@32idcws     | PTC-10 temp controller for a furnace and other thermocouples                                    |
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
-|  32idcBPM     |   usr32idc@32idcws     | SYDOR BPM                                                                                       |
+|  32idcBPM     |   usr32idc@s32bcda     | SYDOR BPM (s32bcda is under rh7)                                                                                       |
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
 |  32idcMC      |   usr32idc@postulate   | capillary shaker IOC                                                                            |
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
@@ -40,9 +40,10 @@ List of the TXM related IOCs at 32 ID:
 tomography
 ----------
 
-To start the main nano tomography control screens for 32-ID for scanning or streaming data collection select in the main beamline control screens the corresponding screen for user, admin, tomoscan, tomoscan 32-ID:
+For tomographic data acqusition select TomoScan in the top left part of the main txm gui.
 
-(to be completed)
-
-
+.. image:: img_guide/tomoscan.png
+   :width: 700px
+   :align: center
+   :alt: project
 
