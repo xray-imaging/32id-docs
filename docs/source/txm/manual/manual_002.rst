@@ -11,4 +11,13 @@ Optics positions and resolution levels for for different TXM energies and Freshn
    :align: center
    :alt: project
    
-   
+
+Zone plate illumination can be modelled with https://github.com/nikitinvv/txm_optics
+
+.. image:: ../img/ZPillum.png
+   :width: 800px
+   :align: center
+   :alt: project
+
+
+
