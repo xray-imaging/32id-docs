@@ -45,7 +45,7 @@ List of the TXM related IOCs at 32 ID
 Tomography
 ==========
 
-For tomographic data acqusition select TomoScan in the top left part of the main txm gui.
+For tomographic data acqusition select TomoScan in the top left part of the main txm gui. TomoScan is a general interface for tomographic scanning at 2-BM, 7-BM, 13-BM, and 32-ID (https://tomoscan.readthedocs.io/en/latest/)   
 
 .. image:: img_guide/tomoscan.png
    :width: 400px
