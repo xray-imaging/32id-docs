@@ -22,7 +22,7 @@ To start just the main 32-ID beamline control user interface (no IOC restart)::
     [usertxm@txmtwo]$ start_txm_gui.sh
 
 
-To start just the 32-ID beamline control for users (limited functionality)::
+To start the 32-ID beamline control for users (limited functionality, no IOC restart)::
 
     [usertxm@txmtwo]$ start_txm_gui.sh
 
