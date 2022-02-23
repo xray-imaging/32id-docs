@@ -17,9 +17,19 @@ To start the main 32-ID beamline control user interface with txmoptics and tomos
    :align: center
    :alt: project
    
-To start the main 32-ID beamline control user interface::
+To start just the main 32-ID beamline control user interface (no IOC restart)::
 
     [usertxm@txmtwo]$ start_txm_gui.sh
+
+
+To start just the 32-ID beamline control for users (limited functionality)::
+
+    [usertxm@txmtwo]$ start_txm_gui.sh
+
+.. image:: img_guide/txm_main_user.png
+   :width: 1000px
+   :align: center
+   :alt: project
 
 List of the TXM related IOCs at 32 ID
 =====================================
