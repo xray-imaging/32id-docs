@@ -7,7 +7,7 @@ Each device can be configure and controlled through a graphic user interface (GU
 Beamline
 --------
 
-To start the main 32-ID beamline control user interface::
+To start the main 32-ID beamline control user interface with txmoptics and tomoscan IOCs ::
 
     [usertxm@txmtwo]$ start_txm.sh
 
@@ -16,8 +16,13 @@ To start the main 32-ID beamline control user interface::
    :width: 1000px
    :align: center
    :alt: project
+   
+To start the main 32-ID beamline control user interface::
 
-List of the TXM related IOCs at 32 ID:
+    [usertxm@txmtwo]$ start_txm_gui.sh
+
+List of the TXM related IOCs at 32 ID
+=====================================
 
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
 |        Name   |       server           |                                                 Description                                     |
