@@ -4,7 +4,7 @@ Beamline Control
 All beamline components and detectors are controlled using `EPICS <https://epics-controls.org/>`_ and `areaDetector <https://areadetector.github.io/master/index.html>`_.
 Each device can be configure and controlled through a graphic user interface (GUI) or through a python script using `PyEpics <https://cars9.uchicago.edu/software/python/pyepics3/>`_.
 
-Beamline
+Main interface
 --------
 
 To start the main TXM control user interface with txmoptics and tomoscan IOCs ::
@@ -32,7 +32,7 @@ To start the 32-ID beamline control for users (limited functionality, no IOC res
    :alt: project
 
 List of the TXM related IOCs at 32 ID
-=====================================
+-------------------------------------
 
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
 |        Name   |       server           |                                                 Description                                     |
@@ -52,8 +52,9 @@ List of the TXM related IOCs at 32 ID
 |  32idcUC8     |   usr32idc@sec32lt04   | Agilent pico driver for focusing scintilators                                                   |
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
 
+
 Reference to the main 32-ID beamline control user interface
-===========================================================
+-----------------------------------------------------------
 For opening the main 32-ID caQTdm, select 32-ID Beamline in the top left part of the main TXM gui.
 
 .. image:: img_guide/medm_main_window.png
@@ -61,8 +62,10 @@ For opening the main 32-ID caQTdm, select 32-ID Beamline in the top left part of
    :align: center
    :alt: project
 
+
 Tomography
-==========
+----------
+
 
 For tomographic data acqusition, select TomoScan in the top left part of the main txm gui. TomoScan is a general interface for tomographic scanning at 2-BM, 7-BM, 13-BM, and 32-ID (https://tomoscan.readthedocs.io/en/latest/)   
 
