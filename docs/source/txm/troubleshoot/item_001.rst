@@ -161,7 +161,29 @@ CRLs
 
 To move the CRLs actuators::
 
-    usertxm@txmtwo $ 32idPLC start start | status | stop | medm
+    usr32idc@32idcws $ 32idPLC start start | status | stop | medm
+
+
+CRL control is available on the main TXM control screen:
+
+
+.. image:: ../img/txm_main_CRL.png
+   :width: 720px
+   :align: center
+   :alt: project
+
+The CRL stack consist of:
+
+
+.. _crl_order: https://apps.inside.anl.gov/paris/req.jsp?reqNbr=F5-135054
+
++---------------------------+----------+--------------+----------+-----------------+
+|        Type               |  R (μm)  |   2R0 (mm)   |   Number |   Order         |
++===========================+==========+==============+==========+=================+
+|  cylinder parabolic (1D)  |  1000    |      2       |   4      | crl_order_      |
++---------------------------+----------+--------------+----------+-----------------+
+
+
 
 The medm user interface is also accessible from the main beamline screen under: <IOC> <32idbPLC> <Digital> <PLC relays with DESC>
 
