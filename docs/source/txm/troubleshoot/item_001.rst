@@ -186,9 +186,9 @@ The CRL stack consist of:
 +---------------------------+----------+--------------+-----------+---------+-----------------+
 |  cylinder parabolic (1D)  |  1000    |      2       |     V     |  2      | crl_order_02_   |
 +---------------------------+----------+--------------+-----------+---------+-----------------+
-|  cylinder parabolic (2D)  |   200    |      3       |     -     |  2      | crl_order_00_   |
+|  cylinder parabolic (2D)  |   200    |      -       |     -     |  2      | crl_order_00_   |
 +---------------------------+----------+--------------+-----------+---------+-----------------+
-|  cylinder parabolic (2D)  |   200    |      3       |     -     |  7      | crl_order_01_   |
+|  cylinder parabolic (2D)  |   200    |      -       |     -     |  7      | crl_order_01_   |
 +---------------------------+----------+--------------+-----------+---------+-----------------+
 
 The medm user interface is also accessible from the main beamline screen under: <IOC> <32idbPLC> <Digital> <PLC relays with DESC>
