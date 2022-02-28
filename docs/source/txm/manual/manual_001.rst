@@ -43,18 +43,29 @@ corresponding server and run the corresponding command using the following::
 +===============+========================+=================================================================================================+
 |  32idPLC      |   usr32idc@32idcws     | DIGITAL runs the granite stage air valves and CRL actuators and DAC runs He valve operation     |
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
-|  32idbSOFT    |   usr32idc@32idbws     | New Focus drivers in B and C stations                                                           |
+|  32idcSOFT    |   usr32idc@32idbws     | Scintillator pitch/yaw for 5x,10x lenses, phase ring (x), Sample X, BPM Y                       |
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
 |  32idcTEMP    |   usr32idc@32idcws     | PTC-10 temp controller for a furnace and other thermocouples                                    |
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
-|  32idcBPM     |   usr32idc@s32bcda     | SYDOR BPM (s32bcda is under rh7)                                                                |
+|  32idcBPM     |   usr32idc@s32bcda     | SYDOR BPM (started from s32bcda running rh7)                                                    |
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
-|  32idcMC      |   usr32idc@postulate   | capillary shaker IOC                                                                            |
+|  32idcMC      |   usr32idc@postulate   | Condenser shaker (windows)                                                                      |
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
-|  32idcMCS2    |   usr32idc@postulate   | Smaract IOC                                                                                     |
+|  32idcMCS2    |   usr32idc@postulate   | MicroCT motors for lens box focusing (windows)                                                  |
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
-|  32idcUC8     |   usr32idc@sec32lt04   | Agilent pico driver for focusing scintilators                                                   |
+|  32idcUC8     |   usr32idc@sec32lt04   | Agilent pico driver for focusing scintilators (5x,10x)                                          |
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
+|  32idb        |   usr32idc@32idbws     | CRL (x,y,pitch,yaw), Queensgate (vertical, horizontal)                                          |  
++---------------+------------------------+-------------------------------------------------------------------------------------------------+
+|  32idc01      |   ioc32idc01           | (temporarily Newport) pinhole (x,y), diffuser (x)                                               |
++---------------+------------------------+-------------------------------------------------------------------------------------------------+
+|  32idc02      |   ioc32idc02           | Furnace (x,y,z) (Kohzu)                                                                         |
++---------------+------------------------+-------------------------------------------------------------------------------------------------+
+|  32idcTXM     |   usr32idc@32idcws     | Condenser (x,y,z,pitch,yaw), beamstop (x,y), zone plate (x,y,z), phase ring (y)                 |
++---------------+------------------------+-------------------------------------------------------------------------------------------------+
+|  32idcTXM     |   usr32idc@32idcws     | flight tube (z), sample top piezo (x,z), CCD camera (x,y,z)                                     |
++---------------+------------------------+-------------------------------------------------------------------------------------------------+
+
 
 
 32-ID beamline control
