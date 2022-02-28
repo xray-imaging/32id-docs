@@ -175,15 +175,21 @@ CRL control is available on the main TXM control screen:
 The CRL stack consist of:
 
 
-.. _crl_order: https://apps.inside.anl.gov/paris/req.jsp?reqNbr=F5-135054
+.. _crl_order_00: https://apps.inside.anl.gov/paris/req.jsp?reqNbr=F6-210063
+.. _crl_order_01: https://apps.inside.anl.gov/paris/req.jsp?reqNbr=F7-096033
+.. _crl_order_02: https://apps.inside.anl.gov/paris/req.jsp?reqNbr=F5-135054
 
-+---------------------------+----------+--------------+----------+-----------------+
-|        Type               |  R (μm)  |   2R0 (mm)   |   Number |   Order         |
-+===========================+==========+==============+==========+=================+
-|  cylinder parabolic (1D)  |  1000    |      2       |   4      | crl_order_      |
-+---------------------------+----------+--------------+----------+-----------------+
-
-
++---------------------------+----------+--------------+-----------+---------+-----------------+
+|        Type               |  R (μm)  |   2R0 (mm)   | Direction |  Number |   Order         |
++===========================+==========+==============+===========+=========+=================+
+|  cylinder parabolic (1D)  |  1000    |      2       |     H     |  2      | crl_order_02_   |
++---------------------------+----------+--------------+-----------+---------+-----------------+
+|  cylinder parabolic (1D)  |  1000    |      2       |     V     |  2      | crl_order_02_   |
++---------------------------+----------+--------------+-----------+---------+-----------------+
+|  cylinder parabolic (2D)  |   200    |      3       |     -     |  2      | crl_order_00_   |
++---------------------------+----------+--------------+-----------+---------+-----------------+
+|  cylinder parabolic (2D)  |   200    |      3       |     -     |  7      | crl_order_01_   |
++---------------------------+----------+--------------+-----------+---------+-----------------+
 
 The medm user interface is also accessible from the main beamline screen under: <IOC> <32idbPLC> <Digital> <PLC relays with DESC>
 
