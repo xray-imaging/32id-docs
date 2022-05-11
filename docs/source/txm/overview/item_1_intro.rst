@@ -47,6 +47,8 @@ Resolution & FOV
 ~~~~~~~~~~~~~~~~
 | The table below provides the field of view (FOV) and spatial resolution obtained with the TXM for different X-ray energies, FZPs and distance sample to detector.
 
+`xlsx spreadsheet <https://anl.box.com/s/c2wx7t77ln04oxscygu75vnb7ecu6zxu>`_.
+
 .. image:: ../img/optics_new.png
    :width: 800px
    :align: center
