@@ -10,6 +10,10 @@ If you have been using **TomoPy** for the 3D reconstructions, please cite :cite:
 
 If you have been using the **Distributed Optimization for Nonrigid Nano-Tomography** reconstruction method, please cite :cite:`Nikitin2021`.
 
+
+If you have been using the **TomoScan or TomoStream** to collect and reconstruct your data, please cite :cite:`Nikitin2022`.
+
+
 .. bibliography:: bibtex/cite.bib
    :style: plain
    :labelprefix: A
