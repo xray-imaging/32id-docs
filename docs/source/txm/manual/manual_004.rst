@@ -12,7 +12,7 @@ Data Collection
 TomoScan
 --------
 
-The tomography scans are managed by `tomoScan`_. Please refer to the `tomoScan`_ documentation for details.
+The tomography scans are managed by `tomoScan`_ :cite:`Nikitin2022`. Please refer to the `tomoScan`_ documentation for details.
 
 To configure a single tomographic scan enter the acquistion parameters at:
 
@@ -24,7 +24,7 @@ To configure a single tomographic scan enter the acquistion parameters at:
 Streaming data collection
 -------------------------
 
-`tomoScan`_ provides also support for *streaming data collection* (see `tomoScanStream`_ documentation for details). When collecting data in streaming mode, projections, 
+`tomoScan`_ provides also support for *streaming data collection*:cite:`Nikitin2022` (see `tomoScanStream`_ documentation for details). When collecting data in streaming mode, projections, 
 dark and flat images are broadcasted using `PVaccess`_ and can be retrieved as EPICS PVs. 
 
 **Streaming data collection** features are:
