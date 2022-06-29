@@ -19,8 +19,9 @@ For processing huge data volumes the instrument relies on the micro tomography c
 +-----------+--------------+---------------+-----------------+---------------------------------+----------------------+
 
 
-At the APS
-----------
+
+Reconstruction on CPU and GPU at the APS
+----------------------------------------
 
 Your raw data are automatically copied from the detector to the analysis computer (txmthree in this example) under the folder /local/ssd/data/YYYY-MM/PI_lastName. 
 The SSD storage is limited, therefore after processing it is recommended to move data to a slower but larger HDD storage /local/data/YYYY-MM/PI_lastName. 
@@ -36,7 +37,7 @@ The tabs will have appropriate conda environment activated and show examples of 
 
 
 Reconstruction on CPU and GPU at your home institution
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------------------
 Download and install either `tomocupy cli tool <https://github.com/tomography/tomocupy-cli>`_ (reconstruction on GPU) or `tomopy cli tool <https://github.com/tomography/tomopy-cli>`_ (reconstruction on CPU). Syntax is similar for both packages. List of commands:
 ::
 
