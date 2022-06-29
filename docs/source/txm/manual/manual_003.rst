@@ -34,6 +34,7 @@ Open tabs  for reconstruction of 1 slice, full volume, google slides logging, Fi
     [usertxm@txmthree,~]$ ~/start_rec.sh
     
 The tabs will have appropriate conda environment activated and show examples of running reconstructions. 
+
 .. image:: img_guide/rec_tabs.png
    :width: 400px
    :align: center
