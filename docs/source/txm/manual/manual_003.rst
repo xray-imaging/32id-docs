@@ -36,12 +36,12 @@ Open tabs  for reconstruction of 1 slice, full volume, google slides logging, Fi
 The tabs will have appropriate conda environment activated and show examples of running reconstructions. 
 
 .. image:: img_guide/rec_tabs.png
-   :width: 400px
+   :width: 700px
    :align: center
    :alt: project
 
 .. image:: img_guide/rec_tabs1.png
-   :width: 400px
+   :width: 700px
    :align: center
    :alt: project
    
