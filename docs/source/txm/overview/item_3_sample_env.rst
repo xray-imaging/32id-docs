@@ -95,11 +95,11 @@ Infrared heater
 The heater can work with temperatures up to 150 °C. 
 
 .. image:: ../img/irlamp1.jpg
-   :width: 1000px
+   :width: 700px
    :align: center
    :alt: project
 
 .. image:: ../img/irlamp2.jpg
-   :width: 1000px
+   :width: 700px
    :align: center
    :alt: project
