@@ -88,3 +88,18 @@ Nano-indenter for *in situ* mechanical testing
    :alt: project
 
 | **In situ nanoindentation testing system.** (a) Schematic illustration showing the synchrotron-based in situ 4D nanomechanical testing setup. (b) Schematic depicting the in situ nanoindenter, with a magnified view of the WC flat tip, fabricated using a focused ion beam (FIB). (c) Instrument setup of the Transmission X-ray Microscope (TXM) as well as the in situ nanoindenter, with magnified views of the WC flat punch and the Al–4%Cu micropillar (T = 350 °C, t = 45 min) fabricated at a needle tip. (d) 3D nanoscale rendering of the alloy's microstructure superimposed over an SEM image of the micropillar. (e) 3D rendering of the micropillar's surface with increasing strain (ε), characterized using the TXM. Multiple slip traces are evident from the micropillar's surface relief. Corresponding SEM image showing slip traces shearing θʹ.
+
+
+Infrared heater
+---------------
+The heater can work with temperatures up to 150 °C. 
+
+.. image:: ../img/irlamp1.jpg
+   :width: 700px
+   :align: center
+   :alt: project
+
+.. image:: ../img/irlamp2.jpg
+   :width: 700px
+   :align: center
+   :alt: project
