@@ -16,5 +16,5 @@ source file (high-resolution, without text comments) `TXM_reconstruction_source.
 
 Basic Fiji (ImageJ) usage
 --------------------------------------------
-Recording from a nomachine session on tomo1: `basic_imageJ_usage_c.mov.mov <https://anl.box.com/s/95wdfkdajt4dqns2tbehzaoiaz3jzluk>`_
+Recording from a nomachine session on tomo1: `basic_imageJ_usage_c.mov <https://anl.box.com/s/95wdfkdajt4dqns2tbehzaoiaz3jzluk>`_
 
