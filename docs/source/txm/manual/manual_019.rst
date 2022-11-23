@@ -1,5 +1,5 @@
-XANES - energy scans
-====================
+XANES energy scans with the TXM
+================================
 
 Energy change with calibration
 ------------------------------
