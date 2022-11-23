@@ -45,7 +45,7 @@ For the energy scan first create a list of energies as .npy file::
 
 Then for the XANES 2D scan switch tomoscan to the step scan mode, set the number of projections (1-10), and number of flat fields (1-10):
 
-.. image:: img_guide/energies4.png
+ .. image:: img_guide/energies4.png
    :width: 300px
    :align: center
    :alt: project
