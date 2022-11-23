@@ -45,13 +45,13 @@ For the energy scan first create a list of energies as .npy file::
 
 Then for the XANES 2D scan switch tomoscan to the step scan mode, set the number of projections (1-10), and number of flat fields (1-10):
 
- .. image:: img_guide/energies4.png
-   :width: 300px
+.. image:: img_guide/energies4.png
+   :width: 500px
    :align: center
    :alt: project
  
- .. image:: img_guide/energies5.png
-   :width: 300px
+.. image:: img_guide/energies5.png
+   :width: 500px
    :align: center
    :alt: project
 
@@ -61,13 +61,13 @@ Run the energy scan from the command line::
 	
 For the XANES 3D scan switch tomoscan back to the regular (fly scan) mode, set the number of projections, angular step, number of flat fields, etc:
 
- .. image:: img_guide/energies6.png
-   :width: 300px
+.. image:: img_guide/energies6.png
+   :width: 500px
    :align: center
    :alt: project
 
 .. image:: img_guide/energies7.png
-   :width: 300px
+   :width: 500px
    :align: center
    :alt: project
 
