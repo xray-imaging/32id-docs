@@ -1,7 +1,16 @@
 Energy scan 
 ================
 
-Create a list of energies as .npy file::
+Adjust optics/detector positions for one energy (could be the first one in the list) and Save All PVs to a txt file (e.g. energy8300.txt) through the main TXM GUI:
+
+Adjust optics/detector positions for another energy (could be the last one in the list) and Save All PVs to a txt file (e.g. energy8500.txt) through the main TXM GUI:
+
+Enter file names for the two energies to the calibration energy GUI (bottom of the main TXM GUI), and switch 'Use calibration' to Yes
+
+
+Now energy set function can use the saved optics/detector parameters and interpolate them to any chosen energy, e.g. 8.35 keV. Note interpolation will not be accurate if the energy is very different from the two calibration energies (8.3 keV and 8.5 keV).
+
+For the energy scan first create a list of energies as .npy file::
 
 	(tomoscan) usertxm@txmtwo ~ $ python
 	Python 3.9.7 (default, Sep 16 2021, 13:09:58) 
@@ -13,6 +22,27 @@ Create a list of energies as .npy file::
 	array([8.3       , 8.32222222, 8.34444444, 8.36666667, 8.38888889,
        	       8.41111111, 8.43333333, 8.45555556, 8.47777778, 8.5       ])
 	>>> np.save('energies/energies.npy',energies)
+
+Then for the XANES 2D scan switch tomoscan to the step scan mode, set the number of projections (1-10), and number of flat fields (1-10):
+
+Run the energy scan from the command line:
+
+	(tomoscan) usertxm@txmtwo ~ $ tomoscan energy --tomoscan-prefix 32id:TomoScanStep: --file-params1 /home/beams/USERTXM/epics/synApps/support/txmoptics/iocBoot/iocTXMOptics/energy8300.txt --file-params2 /home/beams/USERTXM/epics/synApps/support/txmoptics/iocBoot/iocTXMOptics/energies8400.txt --file-energies energies/energies.npy
+	
+For the XANES 3D scan switch tomoscan back to the regular (fly scan) mode, set the number of projections, angular step, number of flat fields, etc:
+
+Run the energy scan from the command line by setting the correct prefix:
+
+	(tomoscan) usertxm@txmtwo ~ $ tomoscan energy --tomoscan-prefix 32id:TomoScan: --file-params1 /home/beams/USERTXM/epics/synApps/support/txmoptics/iocBoot/iocTXMOptics/energy8300.txt --file-params2 /home/beams/USERTXM/epics/synApps/support/txmoptics/iocBoot/iocTXMOptics/energies8400.txt --file-energies energies/energies.npy
+
+
+	
+
+
+
+
+
+
 
 	
 
