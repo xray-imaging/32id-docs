@@ -13,5 +13,5 @@ Log in as usertxm@txmtwo::
 	
 To open the data transfer GUI, log in as usertxm@txmthree::
 
-	[usertxm@txmtwo]$ source /home/dm_id/etc/dm.setup.sh
-	[usertxm@txmtwo]$ dm-station-gui
+	[usertxm@txmthree]$ source /home/dm_id/etc/dm.setup.sh
+	[usertxm@txmthree]$ dm-station-gui
