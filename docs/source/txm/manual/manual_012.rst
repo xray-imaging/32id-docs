@@ -10,3 +10,8 @@ Log in as usertxm@txmtwo::
 
 	[usertxm@txmtwo]$ cd /local/Software/globusconnectpersonal-3.1.5/
 	[usertxm@txmtwo]$ globusconnect
+	
+To open the data transfer GUI, log in as usertxm@txmthree::
+
+	[usertxm@txmtwo]$ source /home/dm_id/etc/dm.setup.sh
+	[usertxm@txmtwo]$ dm-station-gui
