@@ -1,70 +1,57 @@
-Detector
-========
+Data Analysis
+=============
 
-The detection system consists of camera, lens and scintillator screens. Below we list of the camera in use at 32-ID:
+.. _cluster_folder: https://anl.box.com/s/cwqbvet2qv8239nhrof0qemyohd0jho3
+.. _cluster: https://anl.box.com/s/uysvb5ujnlugmd16r2f6o10fem9rjgvr
+.. _disk_array: https://anl.box.com/s/zzyvv7w80ltwbtf09zrjiqiw7ak6i7ge
+.. _cluster_quote: https://anl.box.com/s/j7wz6li4afoq2gs5g8feehmmz8q7whuy
+.. _disk_array_quote: https://anl.box.com/s/sbft8cbt2xcpzuuvikixr82dn9jf6zog
 
-.. _flir_web_site:  https://www.flir.com/products/blackfly-s-gige/?model=BFS-PGE-161S7M-C
-.. _camera_order_00001: https://apps.inside.anl.gov/paris/req.jsp?reqNbr=G1-209025
-.. _camera_specs: https://anl.box.com/s/wv9vy7bfle01gvxtxy5g6esght33ixpe
+Tomographic reconstruction of 32-ID TXM data is typically done on machine txmthree.xray.aps.anl.gov: Intel Xeon i7 Silver 4214, 192GB RAM, NVidia Quadro RTX 4000 (8GB), 4TB SSD. 
+For processing huge data volumes the instrument relies on the micro tomography computing infrastructure located at 2-BM:
 
-+---------------------------+--------------------+--------------+------------------+---------+------------+--------------------+-----------------------------------------+-------------------------------+
-|        Camera             |       Web Site     | pixels (HxV) | pixels size (μm) |   bit   | fps        |      Manual        | Part number                             |          Purchase orider      |
-+===========================+====================+==============+==================+=========+============+====================+=========================================+===============================+
-| Blackfly S GigE           |  flir_web_site_    | 5230 x 3032  |       2.74       | 8-10-12 | 7          |    camera_specs_   | BFS-PGE-161S7M-C                        |   camera_order_00001_         |
-+---------------------------+--------------------+--------------+------------------+---------+------------+--------------------+-----------------------------------------+-------------------------------+
-
-
-To check the status of the AreaDetector IOC::
-
-	[usertxm@txmtwo]$ 32idARV2 status
-
-Then, stop the IOC::
-
-	[usertxm@txmtwo]$ 32idARV2 stop
-
-Restart the IOC::
-
-	[usertxm@txmtwo]$ 32idARV2 start
-
-the detector medm screen is accessible with::
-
-   [usertxm@txmtwo]$ 32idARV2 medm
-
-or by selecting **detector** from the main TXM medm screen.
-
-Note: old version of AreaDetector for the TXM camera is accassible using **32ARV1** alias.
++-----------+--------------+---------------+-----------------+---------------------------------+----------------------+
+| Station   | Name         | Product       | Part list       |      Model                      |      Quote           |
++-----------+--------------+---------------+-----------------+---------------------------------+----------------------+
+| 2-BM      | tomo 1-2     | MNJ15421064   | `cluster`_      |  Supermicro 740GP-TNRT cluster  | `cluster_quote`_     |
++-----------+--------------+---------------+-----------------+---------------------------------+----------------------+
+| 2-BM      | disk array   | MNJ15508749   | `disk_array`_   |  SYS-220U-TNR Storage           | `disk_array_quote`_  |
++-----------+--------------+---------------+-----------------+---------------------------------+----------------------+
 
 
-32-ID screens
--------------
 
-.. image:: ../img/ADAravis_32-ID_screen0.png
-   :width: 320px
+Reconstruction on CPU and GPU at the APS
+----------------------------------------
+
+Your raw data are automatically copied from the detector to the analysis computer (txmthree in this example) under the folder /local/ssd/data/YYYY-MM/PI_lastName. 
+The SSD storage is limited, therefore after processing it is recommended to move data to a slower but larger HDD storage /local/data/YYYY-MM/PI_lastName. 
+
+
+Open tabs  for reconstruction of 1 slice, full volume, google slides logging, Fiji, and data folder with reconstrutions. 
+
+::
+
+    [usertxm@txmthree,~]$ ~/start_rec.sh
+    
+The tabs will have appropriate conda environment activated and show examples of running reconstructions. 
+
+.. image:: img_guide/rec_tabs.png
+   :width: 700px
    :align: center
-   :alt: 
+   :alt: project
 
-.. image:: ../img/ADAravis_32-ID_screen1.png
-   :width: 320px
+.. image:: img_guide/rec_tabs1.png
+   :width: 700px
    :align: center
-   :alt: 
-
-.. image:: ../img/ADAravis_32-ID_screen2.png
-   :width: 320px
-   :align: center
-   :alt: 
+   :alt: project
+   
 
 
-13-BM screens
--------------
+Reconstruction on CPU and GPU at your home institution
+------------------------------------------------------
+Download and install either `tomocupy cli tool <https://github.com/tomography/tomocupy-cli>`_ (reconstruction on GPU) or `tomopy cli tool <https://github.com/tomography/tomopy-cli>`_ (reconstruction on CPU). Syntax is similar for both packages. List of commands:
+::
 
-.. image:: ../img/ADAravis_13-BM_screen1.png
-   :width: 320px
-   :align: center
-   :alt: 
-
-.. image:: ../img/ADAravis_13-BM_screen2.png
-   :width: 320px
-   :align: center
-   :alt: 
+    $ tomocupy -h
 
 

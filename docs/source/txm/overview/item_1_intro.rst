@@ -47,7 +47,9 @@ Resolution & FOV
 ~~~~~~~~~~~~~~~~
 | The table below provides the field of view (FOV) and spatial resolution obtained with the TXM for different X-ray energies, FZPs and distance sample to detector.
 
-.. image:: ../img/TXM_calc.jpg
+`xlsx spreadsheet <https://anl.box.com/s/c2wx7t77ln04oxscygu75vnb7ecu6zxu>`_.
+
+.. image:: ../img/optics_new.png
    :width: 800px
    :align: center
    :alt: project
@@ -56,7 +58,7 @@ Resolution & FOV
 Participants
 ~~~~~~~~~~~~
 | • **Beamline scientist in charge**
-|	 • `Vincent De Andrade  <https://www.anl.gov/profile/vincent-de-andrade>`_ (IMG/XSD, vdeandrade@anl.gov)
+|	 • `Viktor Nikitin  <https://www.anl.gov/profile/viktor-nikitin>`_ (IMG/XSD, vnikitin@anl.gov)
 | • **Beamline integration**
 |	 • Alex Deriy (IMG/XSD, deriy@anl.gov)
 | • **Mechanical design**

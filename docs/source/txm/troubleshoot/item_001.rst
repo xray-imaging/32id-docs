@@ -26,7 +26,7 @@ BPM
 
 The IOC can be started with this command::
 
-    usr32idc@txmone% 32idcBPM start
+    usr32idc@s32bcda% 32idcBPM start
 
 the ioc is located at /net/s32dserv/xorApps/epics/synApps_6_0/ioc/32idcBPM/iocBoot/iocbpm/
 
@@ -161,7 +161,35 @@ CRLs
 
 To move the CRLs actuators::
 
-    usertxm@txmtwo $ 32idPLC start start | status | stop | medm
+    usr32idc@32idcws $ 32idPLC start start | status | stop | medm
+
+
+CRL control is available on the main TXM control screen:
+
+
+.. image:: ../img/txm_main_CRL.png
+   :width: 720px
+   :align: center
+   :alt: project
+
+The CRL stack consist of:
+
+
+.. _crl_order_00: https://apps.inside.anl.gov/paris/req.jsp?reqNbr=F6-210063
+.. _crl_order_01: https://apps.inside.anl.gov/paris/req.jsp?reqNbr=F7-096033
+.. _crl_order_02: https://apps.inside.anl.gov/paris/req.jsp?reqNbr=F5-135054
+
++-----------+---------------------------+----------+--------------+-----------+---------+-----------------+
+|    Item   |        Type               |  R (μm)  |   2R0 (mm)   | Direction |  Number |   Order         |
++===========+===========================+==========+==============+===========+=========+=================+
+|     1     |  cylinder parabolic (1D)  |  1000    |      2       |     H     |  2      | crl_order_02_   |
++-----------+---------------------------+----------+--------------+-----------+---------+-----------------+
+|     2     |  cylinder parabolic (1D)  |  1000    |      2       |     V     |  2      | crl_order_02_   |
++-----------+---------------------------+----------+--------------+-----------+---------+-----------------+
+|     3     |  cylinder parabolic (2D)  |   200    |      -       |     -     |  2      | crl_order_00_   |
++-----------+---------------------------+----------+--------------+-----------+---------+-----------------+
+|     4     |  cylinder parabolic (2D)  |   200    |      -       |     -     |  7      | crl_order_01_   |
++-----------+---------------------------+----------+--------------+-----------+---------+-----------------+
 
 The medm user interface is also accessible from the main beamline screen under: <IOC> <32idbPLC> <Digital> <PLC relays with DESC>
 
@@ -322,7 +350,7 @@ He valve control
 
 ::
 
-    usertxm@txmtwo $ 32idPLC start start | status | stop | medm
+    usr32idc@32idcws $ 32idPLC start start | status | stop | medm
 
 The medm user interface is accessible from the main beamline screen under: <IOC> <32idcPLC> <DAC> <PLC DAC>
 
@@ -400,11 +428,17 @@ Restarting the drivers:
 Phase Ring
 ----------
 
-To move the phase ring you need to start the Micronix Piezo stages controller IOC::
+To move the phase ring X you need to start the Micronix Piezo stages controller IOC::
 
-    usr32idc@txmone $ 32idcSOFT start | status | stop | medm
+    usr32idc@32idbws $ 32idcSOFT start | status | stop | medm
 
-medm start the standard EPICS ioc medm. To get the UI to control the Micronix stages.
+medm start the standard EPICS ioc medm. 
+
+To move the phase ring Y::
+
+   usr32idc@32idcws $ 32idcTXM start | status | stop | medm
+
+To get the UI to control the Micronix stages.
 
 then
 
@@ -541,49 +575,17 @@ We motor controller is an Aerotech Ensemble:
 Scintillator 
 ------------
 
-Scintillator focus and 2 tilts are adjustable using:
-
-**focus** (adjustment along Z) is controlled with a new port stage accessible from an EPICS IOC running on windows 10 machine called "sec32lt04". To start the IOC
+Scintillator focus IOC:
 
 ::
 
-  [usr32idc@txmtwo]$ xfreerdp /u:usr32idc /size:1900x1000 /v:sec32lt04 /sec:nla
+  usr32idc@sec32lt04 $ 32idcUC8  start | status | stop | medm
 
-or::
-
-  [usr32idc@txmtwo]$ ~/remote_sec32lt04
-
-then run:
-
-.. image:: ../img/focus_01.png
-   :width: 100px
-   :align: center
-   :alt: project
-
-The focus motor control is accessible from the main txm user interface.
-
-**tilt adjustments**
+Scintillator pitch/yaw for 5x, 10x lenses:
 
 ::
 
-   usr32idc@txmone $ ./start_caQtDM_32id
-
-then select:
-
-.. image:: ../img/new_focus_01.png
-   :width: 400px
-   :align: center
-   :alt: project
-
-.. image:: ../img/new_focus_02.png
-   :width: 400px
-   :align: center
-   :alt: project
-
-.. image:: ../img/new_focus_03.png
-   :width: 100px
-   :align: center
-   :alt: project
+   usr32idc@32idbws $ 32idcSOFT   start | status | stop | medm
 
 
 Shutter
@@ -638,38 +640,13 @@ zone plate selfy using the 16 nm Zone Plate:
    :align: center
    :alt: project
 
-TomoScan
---------
-
-To start the tomoScan ioc::
-
-   usertxm@txmtwo $ start_ioc.sh
-
-.. image:: ../img/tomoscan_01.png
-   :width: 500px
-   :align: center
-   :alt: project
-
-
-User Interface
---------------
-
-To start the TXM user interface::
-
-    usertxm@txmtwo $ start_txm
-
-.. image:: ../img/start_txm.png
-   :width: 500px
-   :align: center
-   :alt: project
-
 
 XY stages
 ---------
 
 To move the air bearing XY stages::
 
-    usertxm@txmtwo $ 32idPLC start start | status | stop | medm
+    usr32idc@32idcws $ 32idPLC start start | status | stop | medm
 
 The medm user interface is accessible from the main beamline screen under: <IOC> <32idbPLC> <Digital> < Granite air valves (caQtDM only)>
 
