@@ -41,7 +41,7 @@ extensions = [
 bibtex_bibfiles = [
     'source/txm/bibtex/ref.bib',
     'source/txm/bibtex/cite.bib',
-    'source/hsi/AM/bibtex/32_ID_AM.bib',
+    'source/hsi/AM/bibtex/AM_ref.bib',
     'source/hsi/manual/bibtex/scintilators.bib'
     ]
 
