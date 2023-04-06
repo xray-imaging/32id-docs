@@ -1,5 +1,5 @@
 Videos 
-================
+======
 
 Sample alignment and tomographic scanning
 -----------------------------------------
@@ -14,7 +14,14 @@ Recording from the txmthree machine with 1 monitor: `TXM_reconstruction.mov <htt
 source file (high-resolution, without text comments) `TXM_reconstruction_source.mp4 <https://anl.box.com/s/5q17ekn16z77db39cggt02wkswl7d09l>`_ 
 
 
+
 Basic Fiji (ImageJ) usage
 --------------------------------------------
 Recording from a nomachine session on tomo1: `basic_imageJ_usage_c.mov <https://anl.box.com/s/95wdfkdajt4dqns2tbehzaoiaz3jzluk>`_
+
+
+Detailed overview of the TXM as installed in 32-ID-C
+----------------------------------------------------
+Video showing the TXM as last installed in 32-ID-C station at the last day of operation in April 2023: `TXM in April 2023 <https://anl.box.com/s/n96e5soiyarjbo4syzi0f6pxwe8g4yy1>`_
+
 
