@@ -39,6 +39,8 @@ extensions = [
     'sphinx.ext.viewcode']
 
 bibtex_bibfiles = [
+    'source/pm/bibtex/ref.bib',
+    'source/pm/bibtex/cite.bib',
     'source/txm/bibtex/ref.bib',
     'source/txm/bibtex/cite.bib',
     'source/hsi/AM/bibtex/AM_ref.bib',

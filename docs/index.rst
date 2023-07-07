@@ -15,6 +15,7 @@ Content
    source/manual
    source/txm
    source/hsi
+   source/pm
    source/troubleshoot
    source/safety
    source/support
