@@ -15,3 +15,10 @@ To open the data transfer GUI, log in as usertxm@txmthree::
 
 	[usertxm@txmthree]$ source /home/dm_id/etc/dm.setup.sh
 	[usertxm@txmthree]$ dm-station-gui
+
+
+To use a specific key::
+
+	txmthree: nohup ./globusconnectpersonal -restrict-paths /local/ssd/data -dir $HOME/.globusonline_txmthree -shared-paths /local/ssd/data -start &
+	txmtwo: nohup ./globusconnectpersonal -restrict-paths /local/dataraid -dir $HOME/.globusonline_txmtwo -shared-paths /local/dataraid -start &
+
