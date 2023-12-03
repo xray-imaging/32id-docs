@@ -17,8 +17,8 @@ Manual
 Please follow these steps:
 
 #. login into Globus (with your personal globus credential)
-#. go to "Collection/Search" and search for the aps data select aps#data
-#. login in the the APS data management system using the same badge number/password combination that use to access the APS poroposal system but put a "d" in front of the badge number
+#. go to "Collection/Search" and search for the aps data select APS:DM:32ID (**NEW** since November 2023)
+#. login in the the APS data management system using the same badge number/password combination that use to access the APS poroposal system
 #. if you forgot your password you can reset it `here <https://beam.aps.anl.gov/pls/apsweb/forgot_password.start_process>`_
 #. go to /gdata/dm/32ID/ then seach for your data by year-month/PI last name
 #. set an end point on your computer (see `Globus EndPoint <https://www.globus.org/globus-connect-personal>`_) 
