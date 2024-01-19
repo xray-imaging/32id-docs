@@ -1,7 +1,7 @@
 Optics Calculations
 ===================
 
-Optics positions and resolution levels for for different TXM energies and Freshnel Zone Plates (FZP) can be calculated with using the following spreadsheet:
+Optics positions and resolution levels for for different TXM energies and Fresnel Zone Plates (FZP) can be calculated with using the following spreadsheet:
 
 
 `xlsx spreadsheet <https://anl.box.com/s/c2wx7t77ln04oxscygu75vnb7ecu6zxu>`_.
