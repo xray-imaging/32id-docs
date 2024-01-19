@@ -2,8 +2,9 @@
 32-ID Beamline
 ==============
 
-Add text here
+To subscribe to the 32-ID mailing list please go to the `list info <https://lists.anl.gov/mailman/listinfo/32-id>`_ page. Once subscribed you can email the list at: 32-id@anl.gov.
 
+Mailing list administrators can configure the mailing list `here <https://lists.anl.gov/mailman/admin/32-id>`_.
 
 Content
 -------
