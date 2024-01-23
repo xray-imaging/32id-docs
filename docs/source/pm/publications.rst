@@ -2,9 +2,6 @@ Publications
 ============
 
 
-space holder 
-
-
 .. bibliography:: bibtex/cite.bib
    :style: plain
    :labelprefix: PM
