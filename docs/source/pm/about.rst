@@ -6,7 +6,7 @@ A synchrotron-based X-ray projection microscope is a type of X-ray imaging syste
 
 The in-house Projection X-ray Microscope of APS:
 
-.. image:: pm/img/pm_01.png
+.. image:: img/pm_01.png
    :width: 300px
    :align: center
    :alt: project
