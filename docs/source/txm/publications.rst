@@ -19,7 +19,8 @@ If you have been using the **TomoScan or TomoStream** to collect and reconstruct
    :labelprefix: TXM
 
 
-
+Applications
+~~~~~~~~~~~~
 **Below is the up-to-date publication list from the 32-ID TXM user community:**
 
 .. bibliography:: bibtex/ref.bib
