@@ -12,7 +12,8 @@ The JJ X-Ray slits were designed and developed to meet the demand for compact, r
 Documentation
 -------------
 
-`Brief instructions <https://anl.box.com/s/zodiozpwv75x34trpfcib3paasxdt3kv>`_
-`User manual <https://anl.box.com/s/dftmhsi0iu68u3bluwkbs13fou4xw7p3>`_
-`Beckhoff motor controller <https://anl.box.com/s/vk05r2z6amijoxv69fzm46obrj7ikomx>`_
-`Patch cables <https://anl.box.com/s/lcf5l9ezcordiga01wduqbktrhci5zpi>`_
+- `Brief instructions <https://anl.box.com/s/zodiozpwv75x34trpfcib3paasxdt3kv>`_
+- `User manual <https://anl.box.com/s/dftmhsi0iu68u3bluwkbs13fou4xw7p3>`_
+- `Beckhoff motor controller <https://anl.box.com/s/vk05r2z6amijoxv69fzm46obrj7ikomx>`_
+- `Patch cables <https://anl.box.com/s/lcf5l9ezcordiga01wduqbktrhci5zpi>`_
+
