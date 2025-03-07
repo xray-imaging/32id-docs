@@ -26,6 +26,6 @@ Contribute
 Mailing list
 ------------
 
-To subscribe to the 32-ID mailing list please go to the `list info <https://lists.anl.gov/mailman/listinfo/32-id>`_ page. Once subscribed you can email the list at: 32-id@anl.gov.
+To subscribe to the 32-ID mailing list send an e-mail to 32-id-owner@lists.anl.gov. 
 
-Mailing list administrators can configure the mailing list `here <https://lists.anl.gov/mailman/admin/32-id>`_. 
+Mailing list administrators can configure the mailing list `here <https://lists.anl.gov/mailman3/lists/32-id.lists.anl.gov/>`_. 
