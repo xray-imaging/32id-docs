@@ -33,11 +33,21 @@ Beamline Specifications
 +----------------------+---------------------------------+
 
 
-
-
 .. image:: img/32IDSources.jpg
    :width: 600px
    :align: center
    :alt: project
 
 32ID Undulators spectra.
+
+
+BL Coordinate System
+--------------------
+
+
+.. image:: img/RefSystem.jpeg
+   :width: 600px
+   :align: center
+   :alt: project
+
+APS coordinate system.

@@ -1,5 +1,5 @@
-Detector
-========
+Detection CMOS Cameras
+======================
 
 The detection system consists of camera, lens and scintillator screens. Below we list of the camera in use at 32-ID:
 

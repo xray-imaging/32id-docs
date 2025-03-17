@@ -3,10 +3,8 @@ Optics Calculations
 
 Optics positions and resolution levels for for different TXM energies and Fresnel Zone Plates (FZP) can be calculated with using the following spreadsheet:
 
+`APS-U Optics Calculations <https://anl.app.box.com/file/1806022760475>`_.
 
-`xlsx spreadsheet <https://anl.box.com/s/c2wx7t77ln04oxscygu75vnb7ecu6zxu>`_.
-
-`xlsx spreadsheet for the new camera system by Sam <https://anl.box.com/s/6f1wlo8b5hvb6idouz9i4pfp0t4pphc3>`_.
 
 .. image:: ../img/Optics.png
    :width: 800px

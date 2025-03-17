@@ -38,30 +38,22 @@ corresponding server and run the corresponding command using the following::
    [username@server] $ IOC-name start
    [username@server] $ IOC-name stop
 
+
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
 |    IOC-Name   |       server           |                                                 Description                                     |
 +===============+========================+=================================================================================================+
-|  32idPLC      |   usr32idc@32idcws     | DAC: runs the granite stage air valves, CRL actuators and He valve operation                    |
+|  32idaSoft    |   usr32idc@txm4        | Runs white beam slits, Queensgate (pitch and roll monochromator)                                |
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
-|  32idcSOFT    |   usr32idc@32idbws     | Scintillator pitch/yaw for 5x, 10x lenses, phase ring (x), Sample (x), BPM(y)                   |
+|  32idbSoft    |   usr32idc@txm4        | OMS MXA Motors: Detector(X,Y),Tube(Z),CCD(Y),Condenser(Z),Sample(Y, granite), TXM(granite),     |
+|               |                        | TXM Transport, PLC (Granite air valves)                                                         |
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
-|  32idcTEMP    |   usr32idc@32idcws     | PTC-10 temperature controller for a furnace and other thermocouples                             |
+|  32idbTXM     |   usr32idc@txm4        | SmarAct Stages: Zone Plates(X,Y,Z), Sample Top (X,Z), Condenser(X,Y,Pitch,YAW),                 |
+|               |                        | Scintillator(Pitch,YAW,Focus), Beamstop(X,Y), PinHole(X,Y), Diffuser(X), BPM(X,Y), Aerotech     |
+|               |                        | NewFocus Piezo: CCD Rotation, Sample(X, granite), Uniblitz Shutter, Analox He Sensor            |
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
-|  32idcBPM     |   usr32idc@s32bcda     | SYDOR BPM (rh7)                                                                                 |
+|  32idbBPM     |   usr32idc@txm4        | SYDOR BPM                                                                                       |
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
-|  32idcMC      |   usr32idc@postulate   | Condenser shaker (windows)                                                                      |
-+---------------+------------------------+-------------------------------------------------------------------------------------------------+
-|  32idcMCS2    |   usr32idc@postulate   | MicroCT motors for lens box focusing (windows)                                                  |
-+---------------+------------------------+-------------------------------------------------------------------------------------------------+
-|  32idcUC8     |   usr32idc@sec32lt04   | Agilent pico driver for focusing scintilators (5x,1 0x)                                         |
-+---------------+------------------------+-------------------------------------------------------------------------------------------------+
-|  32idb        |   usr32idc@32idbws     | CRL (x, y, pitch, yaw), Queensgate (vertical, horizontal)                                       |  
-+---------------+------------------------+-------------------------------------------------------------------------------------------------+
-|  32idc01      |   ioc32idc01           | Pinhole (x, y), diffuser (x)                                                                    |
-+---------------+------------------------+-------------------------------------------------------------------------------------------------+
-|  32idc02      |   ioc32idc02           | Furnace (x, y, z) (Kohzu)                                                                       |
-+---------------+------------------------+-------------------------------------------------------------------------------------------------+
-|  32idcMCS2    |   usr32idc@32idcws     | Condenser (x, y, z, pitch, yaw), beamstop (x, y), zone plate (x, y, z), phase ring (y)          |
+|  32idbShaker  |   usr32idc@32idbws2    | Condenser shaker (windows)                                                                      |
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
 
 
@@ -86,4 +78,3 @@ For tomographic data acqusition, select **TomoScan** in the top left part of the
    :width: 400px
    :align: center
    :alt: project
-
