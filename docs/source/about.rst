@@ -11,14 +11,17 @@ Supported Techniques
 | • Radiography
 | • Transmission x-ray microscopy
 | • Tomography
+| • Holotomography (in future)
 
 Beamline Specifications
 -----------------------
 
 +----------------------+---------------------------------+
-|  Source (upstream)   |   U33                           |
+|  Source (upstream)   |   Planar 1.35                   |
 +----------------------+---------------------------------+
-|  Source (downstream) |   U18                           |
+|  Source (downstream) |   Planar 2.8                    |
++----------------------+---------------------------------+
+|  Configuration       |   Canted                        |
 +----------------------+---------------------------------+
 |  Monochromator Type  |   Si(111)                       |
 +----------------------+---------------------------------+
@@ -28,3 +31,23 @@ Beamline Specifications
 +----------------------+---------------------------------+
 |  Beam Size (HxV)     |   1mm x 2mm (Unfocused)         |
 +----------------------+---------------------------------+
+
+
+.. image:: img/32IDSources.jpg
+   :width: 600px
+   :align: center
+   :alt: project
+
+32ID Undulators spectra.
+
+
+BL Coordinate System
+--------------------
+
+
+.. image:: img/RefSystem.jpeg
+   :width: 600px
+   :align: center
+   :alt: project
+
+APS coordinate system.
