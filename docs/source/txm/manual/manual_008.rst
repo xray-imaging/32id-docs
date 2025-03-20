@@ -6,7 +6,7 @@ To tag the datasets collected during the experiment with user information we use
 DMagic automatically retrieved the current user information from the `Advanced Photon Source <http://www.aps.anl.gov>`_
 `scheduling system  <https://schedule.aps.anl.gov/>`_.
 
-(dm) usertxm@txm4
+
 To use DMagic during an experiment::
 
 	usertxm@txm4 $ bash
