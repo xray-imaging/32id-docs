@@ -6,47 +6,47 @@ To tag the datasets collected during the experiment with user information we use
 DMagic automatically retrieved the current user information from the `Advanced Photon Source <http://www.aps.anl.gov>`_
 `scheduling system  <https://schedule.aps.anl.gov/>`_.
 
-
+(dm) usertxm@txm4
 To use DMagic during an experiment::
 
-	[usertxm@txmtwo]$ bash
-	[usertxm@txmtwo]$ conda activate dm
-	[usertxm@txmtwo]$ source /home/dm_id/etc/dm.setup.sh
-	[usertxm@txmtwo]$ dmagic -h
-	[usertxm@txmtwo]$ dmagic show
+	usertxm@txm4 $ bash
+	(base) usertxm@txm4 $ conda activate dm
+	(dm) usertxm@txm4 $ 
+	(dm) usertxm@txm4 $ dmagic -h
+	(dm) usertxm@txm4 $ dmagic show
 
 if required set the beamline name and tomoScan prefix with::
 
-	[usertxm@txmtwo]$ dmagic show --beamline 32-ID --tomoscan-prefix 32id:TomoScan
+	usertxm@txm4 $ dmagic show --beamline 32-ID-B,C --tomoscan-prefix 32id:TomoScan
 
 ::
 
-	2021-07-08 13:00:55,946 - Today's date: 2021-07-08 13:00:55.946907
-	2021-07-08 13:00:56,525 - Added fenter@anl.gov to the e-mail list.
-	2021-07-08 13:00:56,526 - Added sturchio@udel.edu to the e-mail list.
-	2021-07-08 13:00:56,526 - Added sslee@anl.gov to the e-mail list.
-	2021-07-08 13:00:56,526 - Added ialmazn@anl.gov to the e-mail list.
-	2021-07-08 13:00:56,526 - Added bektur@udel.edu to the e-mail list.
-	2021-07-08 13:00:56,526 - Added youngjkm@anl.gov to the e-mail list.
-	2021-07-08 13:00:56,596 - 	Run Name: 2021-2
-	2021-07-08 13:00:56,596 - 	Proposal Title: Replacement of calcium carbonate (CaCO3) polymorphs by lead, zinc, and cadmium carbonates
-	2021-07-08 13:00:56,596 - 	PI Name: Youngjae Kim
-	2021-07-08 13:00:56,596 - 	Start time: 2021-07-08 08:00:00-05:00
-	2021-07-08 13:00:56,597 - 	End Time: 2021-07-11 08:00:00-05:00
-	2021-07-08 13:00:56,597 - 	User email address: 
-	2021-07-08 13:00:56,597 - 		fenter@anl.gov
-	2021-07-08 13:00:56,597 - 		sturchio@udel.edu
-	2021-07-08 13:00:56,597 - 		sslee@anl.gov
-	2021-07-08 13:00:56,597 - 		ialmazn@anl.gov
-	2021-07-08 13:00:56,597 - 		bektur@udel.edu
-	2021-07-08 13:00:56,598 - 		youngjkm@anl.gov
-	2021-07-08 13:00:56,598 - General
-	2021-07-08 13:00:56,598 -   config           /home/beams/USERTXM/dmagic.conf
-	2021-07-08 13:00:56,598 -   verbose          True
-	2021-07-08 13:00:56,598 - Settings
-	2021-07-08 13:00:56,598 -   beamline         32-ID
-	2021-07-08 13:00:56,598 -   tomoscan_prefix  32id:TomoScan
+	2025-03-20 15:48:05,583 - Today's date: 2020-11-01 15:48:05.583378-06:00
+	2025-03-20 15:48:19,304 - Found valid proposal start time
+	2025-03-20 15:48:19,305 - 	Run: 2020-3
+	2025-03-20 15:48:19,305 - 	PI Name: Kamel Fezzaa
+	2025-03-20 15:48:19,305 - 	PI affiliation: Argonne National Laboratory
+	2025-03-20 15:48:19,305 - 	PI e-mail: fezzaa@aps.anl.gov
+	2025-03-20 15:48:19,305 - 	PI badge: 51803
+	2025-03-20 15:48:19,305 - 	Proposal GUP: 71795
+	2025-03-20 15:48:19,305 - 	Proposal Title: 32-ID operation and RnD for 2020-3
+	2025-03-20 15:48:19,305 - 	Start date: 2020_10_20
+	2025-03-20 15:48:19,305 - 	Start time: 2020-10-20 08:00:00-05:00
+	2025-03-20 15:48:19,305 - 	End Time: 2020-11-09 08:00:00-06:00
+	2025-03-20 15:48:19,305 - 	User email address: 
+	2025-03-20 15:48:19,305 - 		 vdeandrade@aps.anl.gov
+	2025-03-20 15:48:19,305 - 		 fezzaa@aps.anl.gov
+	2025-03-20 15:48:19,305 - 		 deriy@anl.gov
+	2025-03-20 15:48:19,305 - General
+	2025-03-20 15:48:19,305 -   config           /home/beams/USERTXM/dmagic.conf
+	2025-03-20 15:48:19,305 -   verbose          True
+	2025-03-20 15:48:19,305 - Settings
+	2025-03-20 15:48:19,305 -   beamline         32-ID-B,C
+	2025-03-20 15:48:19,305 -   credentials      /home/beams/USERTXM/.scheduling_credentials
+	2025-03-20 15:48:19,305 -   set              0
+	2025-03-20 15:48:19,305 -   tomoscan_prefix  32id:TomoScanStep:
+	2025-03-20 15:48:19,305 -   url              https://beam-api-dev.aps.anl.gov
 
 To automatically fill the tomoScan current user info::
 
-	[usertxm@txmtwo]$ dmagic tag
+	usertxm@txm4 $ dmagic tag

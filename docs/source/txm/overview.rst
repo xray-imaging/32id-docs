@@ -62,5 +62,5 @@ Optical Layout
 Contacts
 --------
 | `Viktor Nikitin  <https://www.anl.gov/profile/viktor-nikitin>`_ (vnikitin@anl.gov)
-| `Alberto Mittone  <https://www.anl.gov/>`_ (amittone@anl.gov)
-| Beamline phone #: (630)252-1832
+| `Alberto Mittone  <https://www.anl.gov/profile/alberto-mittone>`_ (amittone@anl.gov)
+| Beamline phone #: (630) 252-1832
