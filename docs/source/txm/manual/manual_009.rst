@@ -32,17 +32,6 @@ Login at the beamline Linux machine and then type::
 	[usertxm@txmthree]$ ./Dragonfly
 
 
-Avizo
-~~~~~
-
-After your data are reconstructed you can visualize using Avizo.
-
-Login at the beamline Linux machine and then type:
-
-[tomo@handyn]$ cd /local/AmiraAvizo3D/2021.1/bin/
-[tomo@handyn]$ ./Avizo3D
-
-
 Gallery
 ~~~~~~~
 
