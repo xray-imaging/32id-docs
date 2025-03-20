@@ -2,5 +2,10 @@
 User Manual
 ===========
 
-space holder
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   manual/manual*
+
    
