@@ -14,7 +14,9 @@ Features
 To edit/modify these web pages
 ------------------------------
 
-- install `Anaconda python <https://www.anaconda.com/products/individual>`_ if you already have it installed open a terminal and update with::
+- install `Anaconda python <https://www.anaconda.com/products/individual>`_ if you already have it installed open a terminal and update with:
+
+::
     
     conda update all
 
