@@ -6,8 +6,8 @@ Restore
 
 To restore an experiment, e.g. 2023-03-Xu, from tape to its original location on voyager
 
-.. image:: img_guide/voyager_on_globus.png 
-   :width: 200px
+.. image:: img_guide/voyager_on_globus_01.png 
+   :width: 250px
    :align: center
    :alt: dm
 
@@ -22,7 +22,15 @@ To restore an experiment, e.g. 2023-03-Xu, from tape to its original location on
 Download
 --------
 
-To download an experiment, e.g. 2023-03-Xu, from voyager to /data/ (mouting point for example of tomodata1:/data/)
+You can download data stored on Voyager directly using `Globus <https://www.globus.org/>`_. Simply select your beamline collection (e.g., APS:DM:32ID), navigate to the experiment path (e.g., /2023-03/2023-03-Xu), and choose the specific datasets to download. In the Globus destination window, select your desired folder on your computer.
+
+.. image:: img_guide/voyager_on_globus_02.png 
+   :width: 350px
+   :align: center
+   :alt: dm
+
+
+To download an entire experiment (e.g., 2023-03-Xu) from Voyager to /data/ (e.g., the mount point for tomodata1:/data/), you can use the dm-download command as follows:
 
 ::
 
