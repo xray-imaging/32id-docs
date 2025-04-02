@@ -19,6 +19,21 @@ To restore an experiment, e.g. 2023-03-Xu, from tape to its original location on
     (dm-user) usertxm@txmthree ~ $ dm-restore-experiment --experiment 2023-03-Xu
     id=0293f99b-c724-402f-af94-1f2606499d96 name=restoreArchive experimentName=2023-03-Xu status=pending 
 
+
+You can check the status of the restore process with:
+
+::
+
+	(base) usertxm@txmthree ~ $ dm-restore-experiment --experiment Finfrock-2023-03
+   	Unfinished archive task with id 0293f99b-c724-402f-af94-1f2606499d96 already exists for experiment Finfrock-2023-03
+
+or with:
+
+::
+
+	(base) usertxm@txmthree ~ $ dm-get-archive-task --id 0293f99b-c724-402f-af94-1f2606499d96 --display-keys ALL
+
+
 Download
 --------
 
@@ -38,4 +53,6 @@ To download an entire experiment (e.g., 2023-03-Xu) from Voyager to /data/ (e.g.
     (dm-user) usertxm@txmthree ~ $ dm-download --experiment 2023-03-Xu --destination-directory  /data/
 
 
-For more details see the `DM instruction <https://confluence.aps.anl.gov/display/DMGT/2-BM+Deployment>`_.
+For more details see the `DM instruction <https://git.aps.anl.gov/DM/dm-docs/-/wikis/DM/Deployments/32-ID-Deployment>`_.
+
+ 
