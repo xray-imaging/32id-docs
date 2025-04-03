@@ -1,8 +1,8 @@
 Data Management
 ===============
 
-Restore
--------
+Tape Restore
+------------
 
 To restore an experiment, e.g. 2023-03-Xu, from tape to its original location on voyager
 
@@ -33,6 +33,16 @@ or with:
 
 	(base) usertxm@txmthree ~ $ dm-get-archive-task --id 0293f99b-c724-402f-af94-1f2606499d96 --display-keys ALL
 
+
+Tape archive
+------------
+
+To archive an experiment, e.g. 2023-03-Xu, from voyager to tape:
+
+::
+
+    (base) [user2bmb@handyn]$ source /home/dm_bm/etc/dm.setup.sh
+    (dm-user) [user2bmb@handyn]$ dm-archive-experiment --experiment 2023-03-Xu
 
 Download
 --------
