@@ -19,7 +19,7 @@ To start the main TXM control user interface with txmOptics, tomoScan IOCs and a
    
 To start the 32-ID beamline control for users (limited functionality, no IOC restart)::
 
-    [usertxm@txmtwo]$ start_txm_gui.sh
+    [usertxm@txm4]$ start_txm_gui.sh
 
 .. image:: img_guide/txm_main_user.png
    :width: 1000px
@@ -54,6 +54,10 @@ corresponding server and run the corresponding command using the following::
 |  32idbBPM     |   usr32idc@txm4        | SYDOR BPM                                                                                       |
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
 |  32idbShaker  |   usr32idc@32idbws2    | Condenser shaker (windows)                                                                      |
++---------------+------------------------+-------------------------------------------------------------------------------------------------+
+|  32idbSP1     |   usertxm@gauss        | FLIR Oryx server                                                                                |
++---------------+------------------------+-------------------------------------------------------------------------------------------------+
+|  32kinetix    |   usertxm@maxwell      | TELEDYNE Kinetix server                                                                         |
 +---------------+------------------------+-------------------------------------------------------------------------------------------------+
 
 
