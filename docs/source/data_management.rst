@@ -58,6 +58,15 @@ Done — permanently on DM
 Pending — still on local disk, not fully archived
 =================================================
 
+.. note::
+
+   Rows with an **approve →** link are already verified on DM and ready to
+   delete. Click the link to send a pre-filled approval email to Francesco
+   De Carlo (decarlo@anl.gov). If your browser has no email client
+   configured, copy the path/size info from the row and send it via Slack
+   or any other channel instead. The dataset will be moved to DM once
+   approval is received.
+
 .. list-table::
    :header-rows: 1
    :widths: auto
@@ -66,30 +75,37 @@ Pending — still on local disk, not fully archived
      - Size
      - DM status
      - Action needed
+     - Confirm to move
    * - ``/data2/32ID/2026-07-Nikitin/``
      - 481 G
      - fully on DM as ``2026-07-Mokso-1022117/data/probe_calibration/``
      - keep for continued processing; safe to delete when finished
+     - `approve → <mailto:decarlo@anl.gov?subject=DM%20delete%20approval%3A%20%2Fdata2%2F32ID%2F2026-07-Nikitin&body=I%20approve%20deletion%20of%20%2Fdata2%2F32ID%2F2026-07-Nikitin%20(481%20G%2C%20fully%20on%20DM%20as%20Mokso%2Fprobe_calibration).>`__
    * - ``/data2/32ID/2026-07-Nikitin-1015240/``
      - 691 G
      - fully on DM as ``2026-07-Mokso-1022117/data/tomography/``
      - keep for continued processing; safe to delete when finished
+     - `approve → <mailto:decarlo@anl.gov?subject=DM%20delete%20approval%3A%20%2Fdata2%2F32ID%2F2026-07-Nikitin-1015240&body=I%20approve%20deletion%20of%20%2Fdata2%2F32ID%2F2026-07-Nikitin-1015240%20(691%20G%2C%20fully%20on%20DM%20as%20Mokso%2Ftomography).>`__
    * - ``/data2/32ID/2026-07-Nikitin-1015240_rec/``
      - 275 G
      - fully on DM as ``2026-07-Mokso-1022117/analysis/``
      - keep for continued processing; safe to delete when finished
+     - `approve → <mailto:decarlo@anl.gov?subject=DM%20delete%20approval%3A%20%2Fdata2%2F32ID%2F2026-07-Nikitin-1015240_rec&body=I%20approve%20deletion%20of%20%2Fdata2%2F32ID%2F2026-07-Nikitin-1015240_rec%20(275%20G%2C%20fully%20on%20DM%20as%20Mokso%2Fanalysis).>`__
    * - ``/data2/32ID/Xiaoyang`` + ``Xiaoyang_rec``
      - 3.1 T (2.0 + 1.1)
      - **no DM home identified**
      - identify owner / target GUP or delete
+     - —
    * - ``/data2/32ID/Peter`` + ``Peter_rec``
      - 2.4 T (605 G + 1.8 T)
      - **no DM home identified**
      - identify owner / target GUP or delete
+     - —
    * - ``/data2/32ID/CORML``
      - 276 M
      - undated, DM home unknown
      - assess
+     - —
 
 Mokso-Nikitin folder mapping (kept locally on /data2)
 -----------------------------------------------------
