@@ -1,0 +1,16 @@
+/* Allow sphinx_rtd_theme tables (list-table / grid-table) to wrap cell content
+   so long text does not overflow into adjacent columns. */
+.wy-table-responsive table td,
+.wy-table-responsive table th,
+.rst-content table.docutils td,
+.rst-content table.docutils th {
+    white-space: normal !important;
+    vertical-align: top !important;
+}
+
+/* Inline code inside table cells should also wrap when the row is narrow. */
+.wy-table-responsive table code,
+.rst-content table.docutils code {
+    white-space: normal !important;
+    word-break: break-all;
+}

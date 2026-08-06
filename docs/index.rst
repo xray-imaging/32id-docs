@@ -11,6 +11,7 @@ Content
    source/about
    source/manual
    source/procedures
+   source/data_management
    source/txm
    source/hsi
    source/pm
