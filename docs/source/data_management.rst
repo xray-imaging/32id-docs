@@ -2,6 +2,13 @@
 Data Management
 ===============
 
+.. warning::
+
+   **2026-08-14 — tomodata2 disk-array failure:** the ``/data2`` mount was
+   totally lost. Any ``/data2/32ID`` content that had **not** yet been
+   mirrored to DM is permanently gone. ``/data3/32ID`` was unaffected.
+   See the "Lost to 2026-08-14 tomodata2 failure" section below.
+
 This page summarizes the DM (APS Data Management) status for 32-ID datasets.
 
 Convention: **Done** means the dataset was permanently moved from ``/data2/32ID`` or
@@ -76,36 +83,46 @@ Pending — still on local disk, not fully archived
      - DM status
      - Action needed
      - Confirm to move
-   * - ``/data2/32ID/2026-07-Nikitin/``
+   * - ``/data2/32ID/2026-07-Nikitin/`` (probe/cal)
      - 481 G
-     - fully on DM as ``2026-07-Mokso-1022117/data/probe_calibration/``
-     - keep for continued processing; safe to delete when finished
-     - `approve → <mailto:decarlo@anl.gov?subject=DM%20delete%20approval%3A%20%2Fdata2%2F32ID%2F2026-07-Nikitin&body=I%20approve%20deletion%20of%20%2Fdata2%2F32ID%2F2026-07-Nikitin%20(481%20G%2C%20fully%20on%20DM%20as%20Mokso%2Fprobe_calibration).>`__
-   * - ``/data2/32ID/2026-07-Nikitin-1015240/``
+     - **on DM** as Mokso ``data/probe_calibration/`` — /data2 source LOST 2026-08-14 (was kept live for continued processing); DM copy is intact.
+     - no action — DM is authoritative
+     - N/A — /data2 gone
+   * - ``/data2/32ID/2026-07-Nikitin-1015240/`` (tomo raw)
      - 691 G
-     - fully on DM as ``2026-07-Mokso-1022117/data/tomography/``
-     - keep for continued processing; safe to delete when finished
-     - `approve → <mailto:decarlo@anl.gov?subject=DM%20delete%20approval%3A%20%2Fdata2%2F32ID%2F2026-07-Nikitin-1015240&body=I%20approve%20deletion%20of%20%2Fdata2%2F32ID%2F2026-07-Nikitin-1015240%20(691%20G%2C%20fully%20on%20DM%20as%20Mokso%2Ftomography).>`__
+     - **on DM** as Mokso ``data/tomography/`` — /data2 source LOST 2026-08-14; DM copy is intact.
+     - no action — DM is authoritative
+     - N/A — /data2 gone
    * - ``/data2/32ID/2026-07-Nikitin-1015240_rec/``
      - 275 G
-     - fully on DM as ``2026-07-Mokso-1022117/analysis/``
-     - keep for continued processing; safe to delete when finished
-     - `approve → <mailto:decarlo@anl.gov?subject=DM%20delete%20approval%3A%20%2Fdata2%2F32ID%2F2026-07-Nikitin-1015240_rec&body=I%20approve%20deletion%20of%20%2Fdata2%2F32ID%2F2026-07-Nikitin-1015240_rec%20(275%20G%2C%20fully%20on%20DM%20as%20Mokso%2Fanalysis).>`__
+     - **on DM** as Mokso ``analysis/`` — /data2 source LOST 2026-08-14; DM copy is intact.
+     - no action — DM is authoritative
+     - N/A — /data2 gone
+
+Lost to 2026-08-14 tomodata2 failure
+====================================
+
+The following ``/data2/32ID`` content had NOT been mirrored to DM at the time of
+the disk-array failure and is permanently unrecoverable:
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - Dataset / Path
+     - Size
+     - Notes
    * - ``/data2/32ID/Xiaoyang`` + ``Xiaoyang_rec``
      - 3.1 T (2.0 + 1.1)
-     - **no DM home identified**
-     - identify owner / target GUP or delete
-     - —
+     - undated — no DM home identified
    * - ``/data2/32ID/Peter`` + ``Peter_rec``
      - 2.4 T (605 G + 1.8 T)
-     - **no DM home identified**
-     - identify owner / target GUP or delete
-     - —
+     - undated — no DM home identified
    * - ``/data2/32ID/CORML``
      - 276 M
-     - undated, DM home unknown
-     - assess
-     - —
+     - undated
+
+Total lost on /data2/32ID: ~5.5 T. Notify Xiaoyang Liu and Peter.
 
 Mokso-Nikitin folder mapping (kept locally on /data2)
 -----------------------------------------------------
