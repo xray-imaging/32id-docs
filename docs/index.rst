@@ -12,6 +12,7 @@ Content
    source/manual
    source/procedures
    source/txm
+   source/microct
    source/hsi
    source/pm
    source/troubleshoot
